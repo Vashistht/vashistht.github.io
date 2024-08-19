@@ -1,97 +1,120 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+    - name: Name
+      value: Vashisth Tiwari
     - name: Languages
-      value: English, German
+      value: English, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Science in Artificial Intelligence Engineering
+      institution: Carnegie Mellon University, Pittsburgh, PA
+      year: 08/2023 - 12/2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "GPA: 4.00/4.00"
+        - "Courses: Advanced Natural Language Processing, Deep Learning, Machine Learning, AI Systems, Stochastic Processes"
+        # - "Awards: Winner, Citadel Securities x CMU Trading Challenge"
+    - title: Bachelor of Science in Physics, Bachelor of Arts in Mathematics
+      institution: University of Rochester, Rochester, NY
+      year: 08/2019 - 05/2023
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 3.97/4.00"
+        # - "Awards: Semi-Finalist Rhodes Scholarship India (2022); Harry W. Fulbright Prize, Undergrad Teaching Award (2023)"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Efficient Inferencing for Large Language Models
+      year: 12/2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Optimizing LLM inferencing via speculative decoding; working on ways to increase the alignment between small and large models
+        - Working on ways to combine different pruning strategies (weight and activation sparsity) in large language models
+    - title: Research Intern
+      institution: Mana Finance Corporation
+      year: 05/2022 - 08/2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Utilized statistical techniques to analyze stock price distributions and quantify investment risk, resulting in predictive machine learning models for assessing expected yields on potential investments
+        - Developed a demonstrative project prototype illustrating the feasibility of directly tracking data from the block-chain for Ethereum on UniSwap, eliminating reliance on third-party data streams
+    - title: Research Intern
+      institution: Los Alamos National Laboratory
+      year: 06/2021 - 08/2021
       description:
+        - Modeled complex quantum system (atom interferometer beam splitting) using Python and utilized numerical differential equation solvers in Mathematica and Python
+        - Discovered optimal laser pulse parameters through high-dimensional data optimization and parameter estimation using SciPy, CvxPy, and improved the system performance by 5% beyond the current state-of-the-art pulse parameters
+    - title: Research Assistant
+      institution: Dark Energy Spectroscopic Instrument
+      year: 01/2020 - 05/2021
+      description:
+        - Designed multi-class CNNs for spectral data with TensorFlow, scikit-learn to find galaxies with supernovae
+        - Enhanced network performance by applying noise-removal techniques like binning, filtering to preprocess spectral data
+        - Achieved 95%+ accuracy and high precision for supernovae classification tasks in the DESI data pipeline
+    - title: Undergraduate Intern
+      institution: Polymath Research Experience for Undergraduates Online
+      year: 07/2020 - 08/2020
+      description:
+        - Contributed two proofs related to the bounds on the length of Zeckendorf Game, a number theory project
+        - Verified these conjectures for large numbers using Mathematica and Python scripts
+    - title: Undergraduate Research Assistant
+      institution: Blok Lab (Quantum Computing with Superconducting Qubits), Rochester, NY
+      year: 09/2021 - 05/2023
+      description:
+        - Characterized the noise in a quantum computer by comparing the probability distributions of the lab data with the expected distributions from quantum and statistical physics
+        - Built Infrared noise filters using Eccosorb absorbers to increase coherence time in cryogenic microwave setup
+        - Using neural networks to classify different readouts of different levels to reduce readout errors in the setup
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Advanced NLP
+      institution: Language Technologies Institute, CMU
+      year: 08/2024 - 12/2024
+    
+    - title: Advanced Quantum Mechanics
+      institution: Department of Physics and Astronomy
+      year: 01/2023 - 05/2023
+    
+    - title: Advanced Electromagnetism
+      institution: Department of Physics and Astronomy
+      year: 08/2022 - 12/2022
+    
+    - title: Waves and Modern Physics (Honors)
+      institution: Department of Physics and Astronomy
+      year: 01/2021 - 05/2021
+      # description:
+      #   - Held weekly workshops to aid the lecture material with practice questions and an overview of the key concepts
+      #   - Assisted 30 students with weekly assignments in office hours, graded exams and homework
+    - title: Introduction to Programming using Python
+      institution: Department of Computer Science
+      year: 08/2020 - 12/2020
+      # description:
+      #   - Guided 15 students with projects and weekly assignments in python through office hours and tutoring
+      #   - Responsible for grading weekly assignments, projects, and exams
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
+      items: 
+        - "Winner, Citadel Securities x CMU Trading Challenge"
+        - '<a href="https://www.sas.rochester.edu/pas/undergraduate/awards.html">The Undergraduate Teaching Award</a>'
+        - '<a href="https://www.sas.rochester.edu/pas/undergraduate/awards.html">The Harry W. Fulbright Prize</a>'
+        - "Inductee, Phi Beta Kappa Honors Society"
+    - year: 2022
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - "Semi-Finalist, Rhodes Scholarship Indian Consulate"
+        - "Inductee, Sigma Pi Sigma National Honors Society"
+        - '<a href="https://www.spsnational.org/awards/outstanding-chapter">Society of Physics Students Outstanding Chapter Awards</a>'
+    - year: 2021
       items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+        - '<a href="https://www.sas.rochester.edu/pas/undergraduate/awards.html">The Physics Honors Prize</a> (Highest grade in the first two years of physics classes)'
+        - "Regional Silver Medal, Northeastern Collegiate Badminton Conference (Division 2)"
+    - year: 2020
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - "University Summer Research Grant ($1500 grant given to 66 students in total)"
+    - year: 2019
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - '<a href="https://www.next-genius.com">Next Genius Scholar</a> + <a href="https://www.rochester.edu/financial-aid/scholarships/#merit">IB Scholar</a>(Full scholarship to attend the University of Rochester)'
+        - <a href="https://www.davisuwcscholars.org">Shelby Davis UWC Scholar</a>
