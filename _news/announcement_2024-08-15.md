@@ -4,4 +4,4 @@ date: 2024-08-15
 inline: true
 related_posts: false
 ---
-ANLP TA with Professor Graham Neubig
+TAing Advanced NLP (11-711) with Prof. Graham Neubig
