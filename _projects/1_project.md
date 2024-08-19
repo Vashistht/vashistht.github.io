@@ -1,81 +1,30 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Visual Prompt Tuning 
+description: Can you transfer prompts? What is the best place to append prompts? Do they increase the adversarial robustness? Find out here :) 
+img: assets/img/visual-prompt-tuning.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: jia2022visualprompttuning
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project, completed for the Introduction to Deep Learning course, focused on Visual Prompt Tuning (VPT) in Vision Transformers (ViT) {% cite jia2022visualprompttuning %}. I had the change to work with my great friends Disha Hegde, Henry Wong on this project. You can find more about the project [here](https://youtu.be/dUh8MXHKvNE?si=efeuhlRyoUFlVIlB), where we present a short summary of the project. 
+    
+### Key Concepts
+1. **Visual Prompt Tuning (VPT)**: A technique using continuous vectors in the embedding or pixel space, with a frozen transformer backbone and task-specific prompts that are updated.
+2. **Vision Transformer (ViT)**: A neural network architecture applying the transformer model to image analysis tasks.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Research Focus
+The project explored various aspects of VPT through several experiments and ablation studies:
+- **Prompt Placement:** Compared prepending prompts at pixel layer, prepending at embedding layer, and adding element-wise to embedding layer. Prepending to the embedding layer showed the best performance.
+- **Prompt Size:** Conducted a sweep from 25 to 150 tokens, finding that adding prompts significantly increased accuracy, with 50 and 125 tokens showing similar and highest accuracy.
+- **VPT-Deep Layer Depth:** Investigated the impact of the number of transformer encoder layers to which learnable prompt parameters were prepended.
+- **Adversarial Robustness:** Tested the model's resilience to input noise, demonstrating that adding a prompt universally increased model robustness to noisy inputs.
+- **Transfer Learning:** Explored if prompts trained on one dataset (CUB-200) could provide better initialization than standard methods when applied to a new dataset (Stanford Dogs).
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+## Key Findings
+- Prepending prompts to the embedding layer yielded the best performance, possibly allowing the prompt to learn condensed characteristics.
+- The addition of prompts led to a significant increase in accuracy, with minimal differences across various prompt sizes.
+- VPT demonstrated increased robustness to noisy inputs compared to models without prompts.
+- Transfer learning experiments showed promise in using pretrained prompts as initialization for new tasks.
