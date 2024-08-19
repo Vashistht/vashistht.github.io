@@ -84,10 +84,18 @@ $$
 
 where $$\mathcal{D}$$ is the dataset of sampled sub-modules and their performances, and $$\alpha_{\bar{m}_k}$$ is a binary mask.
 
+**Limitation:** Bonsai shows great promise based on its performance on 4/6 tasks on Huggingface Open LLM Leaderboard in its parameter category. However, one notable exception to this generally good performance is its performance on the GSM-8K dataset, which is a mathematical reasoning dataset (achieving ~6% accuracy in its best hyperparameter setting).
+In this work, we wanted to see if we can improve its performance on mathematical reasoning tasks.
+
 ### Our Novel Comprehensive Metric
+**Key Insight:** Our key insight was to notice that while the usual gradient pruning requires the metric $$U$$ to be differentiable, this regression-based approach allows us to use any *well-defined* metric, so long as we can obtain a good estimation of the module's importance. For instance, while accuracy is not differentiable, it can still be used here.
+
+> We asked whether a metric that rewards better reasoning during pruning help with the downstream performance. How can we come up with this metric?
+
+Building on this insight, we experimented with combining accuracy (to capture the quality of the final output), lexicographical similarity (to ensure intermediate numbers are correct), and semantic similarities (to capture the similarity in meaning) between the true and generated tokens.  
+
 
 We introduce a new metric $$U^\dagger$$ that combines lexicographical similarity, semantic similarity, and accuracy:
-
 $$
 U^\dagger = \sum_{i=1}^n a_i M_i \quad \text{where} \quad \sum_{i=1}^n a_i = 100
 $$
