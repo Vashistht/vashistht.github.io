@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: \cv
+title: /cv
 nav_title: cv
 nav: true
 nav_order: 5
