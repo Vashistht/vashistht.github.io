@@ -6,66 +6,97 @@
     - name: Languages
       value: English, Hindi
 
-- title: Education
+- title: <strong> Education </strong>
   type: time_table
   contents:
     - title: Master of Science in Artificial Intelligence Engineering
-      institution: Carnegie Mellon University, Pittsburgh, PA
+      institution: Carnegie Mellon University
+      location: Pittsburgh, PA
       year: 08/2023 - 12/2024
       description:
-        - "GPA: 4.00/4.00"
+        - "<strong>GPA:</strong> 4.00/4.00"
         - "Courses: Advanced Natural Language Processing, Deep Learning, Machine Learning, AI Systems, Stochastic Processes"
         # - "Awards: Winner, Citadel Securities x CMU Trading Challenge"
     - title: Bachelor of Science in Physics, Bachelor of Arts in Mathematics
-      institution: University of Rochester, Rochester, NY
+      institution: University of Rochester
+      location: Rochester, NY
       year: 08/2019 - 05/2023
       description:
-        - "GPA: 3.97/4.00"
+        - "<strong>GPA:</strong> 3.97/4.00"
         # - "Awards: Semi-Finalist Rhodes Scholarship India (2022); Harry W. Fulbright Prize, Undergrad Teaching Award (2023)"
 
-- title: Experience
+- title: <strong Experience </strong>
   type: time_table
   contents:
     - title: Research Assistant
-      institution: Efficient Inferencing for Large Language Models
-      year: 12/2024 - Present
+      institution: <a href="https://strubell.github.io/slab/"> SLAB Lab</a>, w/ Prof. Emma Strubell
+      location: Pittsburgh, PA
+      year: 08/2024 - Present
       description:
-        - Optimizing LLM inferencing via speculative decoding; working on ways to increase the alignment between small and large models
-        - Working on ways to combine different pruning strategies (weight and activation sparsity) in large language models
+        # <strong>Research Question:</strong>
+        - How to do better synthetic data generation 🤔
+        # - Optimizing LLM inferencing via speculative decoding; working on ways to increase the alignment between small and large models
+    - title: Research Assistant 
+      institution: <a href="https://keroro824.github.io/lab-page/"> InifiniAI Lab</a>, w/ Prof. Beidi Chen  #Efficient Inferencing for Large Language Models
+      year: 03/2024 - 08/2024
+      description:
+        # <strong>Research+Engineering Question:</strong> 
+        - How can speculative decoding be used to improve throughput and latency in LLMs; what are the best models for speculative decoding setups in different conditions?
+        # - Optimizing LLM inferencing via speculative decoding; working on ways to increase the alignment between small and large models
+        # - Working on ways to combine different pruning strategies (weight and activation sparsity) in large language models
     - title: Research Intern
-      institution: Mana Finance Corporation
+      institution: Mana # Finance Corporation
       year: 05/2022 - 08/2022
+      location: San Francisco, CA
       description:
-        - Utilized statistical techniques to analyze stock price distributions and quantify investment risk, resulting in predictive machine learning models for assessing expected yields on potential investments
-        - Developed a demonstrative project prototype illustrating the feasibility of directly tracking data from the block-chain for Ethereum on UniSwap, eliminating reliance on third-party data streams
-    - title: Research Intern
-      institution: Los Alamos National Laboratory
-      year: 06/2021 - 08/2021
-      description:
-        - Modeled complex quantum system (atom interferometer beam splitting) using Python and utilized numerical differential equation solvers in Mathematica and Python
-        - Discovered optimal laser pulse parameters through high-dimensional data optimization and parameter estimation using SciPy, CvxPy, and improved the system performance by 5% beyond the current state-of-the-art pulse parameters
-    - title: Research Assistant
-      institution: Dark Energy Spectroscopic Instrument
-      year: 01/2020 - 05/2021
-      description:
-        - Designed multi-class CNNs for spectral data with TensorFlow, scikit-learn to find galaxies with supernovae
-        - Enhanced network performance by applying noise-removal techniques like binning, filtering to preprocess spectral data
-        - Achieved 95%+ accuracy and high precision for supernovae classification tasks in the DESI data pipeline
-    - title: Undergraduate Intern
-      institution: Polymath Research Experience for Undergraduates Online
-      year: 07/2020 - 08/2020
-      description:
-        - Contributed two proofs related to the bounds on the length of Zeckendorf Game, a number theory project
-        - Verified these conjectures for large numbers using Mathematica and Python scripts
+        # - <strong>Research+Engineering Question:</strong> 
+        - How can we use statistical techniques to better quantify the risks of investments and build better pipelines for tracking data from the source?
+        # - Utilized statistical techniques to analyze stock price distributions and quantify investment risk, resulting in predictive machine learning models for assessing expected yields on potential investments
+        # - Developed a demonstrative project prototype illustrating the feasibility of directly tracking data from the block-chain for Ethereum on UniSwap, eliminating reliance on third-party data streams
     - title: Undergraduate Research Assistant
-      institution: Blok Lab (Quantum Computing with Superconducting Qubits), Rochester, NY
+      institution: <a href="https://labsites.rochester.edu/bloklab/"> Blok Lab </a>, w/ Prof. Machiel Blok
+      location: Rochester, NY
       year: 09/2021 - 05/2023
       description:
-        - Characterized the noise in a quantum computer by comparing the probability distributions of the lab data with the expected distributions from quantum and statistical physics
-        - Built Infrared noise filters using Eccosorb absorbers to increase coherence time in cryogenic microwave setup
-        - Using neural networks to classify different readouts of different levels to reduce readout errors in the setup
+        # <strong>Research Question:</strong>
+        - How can we characterize noise and reduce readout errors in superconducting quantum qubits?
+        # - Characterized the noise in a quantum computer by comparing the probability distributions of the lab data with the expected distributions from quantum and statistical physics
+        # - Built Infrared noise filters using Eccosorb absorbers to increase coherence time in cryogenic microwave setup
+        # - Using neural networks to classify different readouts of different levels to reduce readout errors in the setup
+    - title: Research Intern
+      institution: Los Alamos National Laboratory, w/ Dr. Malcolm Boshier
+      location: Los Alamos, NM
+      year: 06/2021 - 08/2021
+      description:
+        # <strong>Research Question:</strong>
+        - Is it possible to improve the performance of atom interferometers perhaps using ML and high-dimensional optimization?
+        # - Modeled complex quantum system (atom interferometer beam splitting) using Python and utilized numerical differential equation solvers in Mathematica and Python
+        # - Discovered optimal laser pulse parameters through high-dimensional data optimization and parameter estimation using SciPy, CvxPy, and improved the system performance by 5% beyond the current state-of-the-art pulse parameters
+      
+    - title: Summer Undergraduate Researcher
+      institution: <a href="https://geometrynyc.wixsite.com/polymathreu"> Polymath REU</a>, w/ Prof. Steven J. Miller
+      location: Online
+      year: 07/2020 - 08/2020
+      description:
+        # <strong>Research Question:</strong>
+        - What are some interesting properties of the Zeckendorf Game? Can we guarantee bounds on the length of the game, come up with winning strategies, etc.?
 
-- title: Teaching Experience
+        # - Contributed two proofs related to the bounds on the length of Zeckendorf Game, a number theory project
+        # - Verified these conjectures for large numbers using Mathematica and Python scripts
+
+    - title: Research Assistant
+      institution: <a href="https://www.desi.lbl.gov/">  Dark Energy Spectroscopic Instrument</a>, w/ Prof. Segev BenZvi
+      location: Rochester, NY
+      year: 01/2020 - 05/2021
+      description:
+        # <strong>Research Question:</strong>
+        -  How can we predict the occurrence of supernovae using spectral data from DESI so we can better use scarce high-resolution cameras?
+        # - Designed multi-class CNNs for spectral data with TensorFlow, scikit-learn to find galaxies with supernovae
+        # - Enhanced network performance by applying noise-removal techniques like binning, filtering to preprocess spectral data
+        # - Achieved 95%+ accuracy and high precision for supernovae classification tasks in the DESI data pipeline
+    
+
+- title: <strong>  Teaching Experience </strong>
   type: time_table
   contents:
     - title: Advanced NLP
@@ -93,7 +124,7 @@
       #   - Guided 15 students with projects and weekly assignments in python through office hours and tutoring
       #   - Responsible for grading weekly assignments, projects, and exams
 
-- title: Honors and Awards
+- title: <strong>  Honors and Awards <strong />
   type: time_table
   contents:
     - year: 2023
