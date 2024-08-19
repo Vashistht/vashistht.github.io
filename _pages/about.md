@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: वशिष्ठ तिवारी • he/him 
+subtitle: वशिष्ठ तिवारी • he/him • AI@CMU  •Physics+Math @UofR
 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 # <p>555 your office number</p>
 # <p>123 your address street</p>
@@ -17,14 +17,14 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi!! I'm Vashisth (people call me Vash as well). I'm a second-year Master's student in the ECE Dept at CMU focusing on AI. Previously, I studied Mathematics and Physics at the University of Rochester. I am generally interested in the two broad categories of research: improving LLM performance in reasoning and data scarce areas, improving LLM inference. To this end, I am currently exploring a more model aware, active synthetic data generation strategy. 
+Hi! I'm Vashisth (people call me Vash as well). I'm a second-year Master's student in the ECE Dept at CMU focusing on AI. In my undergrad, I studied Mathematics and Physics at the University of Rochester.  I am generally interested in two broad categories of research: *improving LLMs in reasoning and data-scarce areas, and optimizing LLM inference. Currently, I'm exploring model-aware, active synthetic data generation*.
 
-I have been fortunate to have worked with some amazing people. I currently work with the amazing mentors [Clara Na](https://clarasna.com/) and [Lucio Dery](https://ldery.github.io/#) under Professor [Emma Strubell](https://strubell.github.io/)'s lab. Previously, I worked with Professor [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) on using speculative decoding to improve throughput and latency, self-speculation by using weight, activation, and contextual sparsity. 
+I have been fortunate to work with some amazing people across physics, math, and AI. I currently work with mentors [Clara Na](https://clarasna.com/) and [Lucio Dery](https://ldery.github.io/#) in Professor [Emma Strubell](https://strubell.github.io/)'s lab. Previously, I worked with Professor [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) on using speculative decoding to improve throughput and latency, self-speculation by utilizing weight, activation, and contextual sparsity. 
 
-My research journey started with Professor [Segev BenZvi](https://www.pas.rochester.edu/~sybenzvi/) at the University of Rochester, where I worked on ML algorithms to identify supernovae in the Dark Energy Spectroscopic Instrument. I also worked with Professor [Machiel Blok](https://labsites.rochester.edu/bloklab/team/) on quantifying noise in super conducting qubits.
+My research began with Professor [Segev BenZvi](https://www.pas.rochester.edu/~sybenzvi/) at the University of Rochester working on [Dark Energy Spectroscopic Instrument](https://www.desi.lbl.gov) and with Professor [Machiel Blok](https://labsites.rochester.edu/bloklab/team/)  on superconducting qubits.
+ <!-- where I worked on ML algorithms to identify supernovae in the Dark Energy Spectroscopic Instrument. I also worked with Professor [Machiel Blok](https://labsites.rochester.edu/bloklab/team/) on quantifying noise in super conducting qubits. -->
 
-During my summers, I also have had the pleasure to work at **Los Alamos National Laboratory** with incredible Dr. [Malcolm Boshier](https://www.matterwaveoptics.eu/FOMO2024/malcolm-boshier/) working on algorithms to optimize experimental quantum systems. I also worked as a Quantitative Research Intern at Mana under the mentors [Max Novendstern](https://www.linkedin.com/in/maxnovendstern/) and [David Kaufman](https://www.linkedin.com/in/davidwkaufman/).
-
+During my summers, I have had the pleasure to work at **Los Alamos National Laboratory** with Dr. [Malcolm Boshier](https://www.matterwaveoptics.eu/FOMO2024/malcolm-boshier/) on optimizing quantum systems. I also gained experience as a Quantitative Research Intern at Mana under mentors [Max Novendstern](https://www.linkedin.com/in/maxnovendstern/) and [David Kaufman](https://www.linkedin.com/in/davidwkaufman/).
 
 <!-- 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
