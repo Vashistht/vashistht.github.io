@@ -469,20 +469,63 @@ footer.sticky-bottom {
 
 // CV
 
+// .cv {
+//   margin-bottom: 40px;
+
+//   .card {
+//     background-color: var(--global-card-bg-color);
+//     border: 1px solid var(--global-divider-color);
+
+//     .list-group-item {
+//       background-color: inherit;
+//       border-color: var(--global-divider-color);
+
+//       .badge {
+//         color: var(--global-card-bg-color) !important;
+//         background-color: var(--global-theme-color) !important;
+//       }
+//     }
+//   }
+// }
+
+// .table-cv-map {
+//   background-color: transparent;
+//   border: none;
+//   color: var(--global-text-color);
+// }
+
+// .date-column {
+//   width: 75px;
+//   transform: translateX(-15px) translateY(-5px);
+// }
+
+// CV
+
 .cv {
   margin-bottom: 40px;
+  font-size: 0.9rem; // Reduce the base font size for all CV content
 
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
 
+    .card-title {
+      font-size: 1.1rem; // Slightly larger than base, but still reduced
+    }
+
+    .card-text {
+      font-size: 0.85rem; // Smaller than the base CV font size
+    }
+
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
+      font-size: 0.85rem; // Match card-text size
 
       .badge {
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
+        font-size: 0.75rem; // Slightly reduce badge size
       }
     }
   }
@@ -492,13 +535,14 @@ footer.sticky-bottom {
   background-color: transparent;
   border: none;
   color: var(--global-text-color);
+  font-size: 0.85rem; // Reduce font size to match other elements
 }
 
 .date-column {
   width: 75px;
   transform: translateX(-15px) translateY(-5px);
+  font-size: 0.8rem; // Slightly smaller for dates
 }
-
 // Repositories
 
 @media (min-width: 768px) {
