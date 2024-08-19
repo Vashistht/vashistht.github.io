@@ -1,10 +1,11 @@
 ---
 layout: page
 permalink: /service/
-title: service
+title: /community engagement
 description: Being able to play my part in making the community more accessible for everyone, more fun is important to me. Some things I have had the pleasure of being a part of.
 nav: true
 nav_order: 3
+nav_title: service
 ---
 
 ### Community Outreach with SPS

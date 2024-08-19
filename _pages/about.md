@@ -1,8 +1,10 @@
 ---
 layout: about
 title: about
-permalink: /
-subtitle: वशिष्ठ तिवारी • he/him • AI@CMU  •Physics+Math @UofR
+permalink: / 
+subtitle:  वशिष्ठ तिवारी &#9475;he/him &#9475;AI @CMU &#9475;Physics+Math @UofR
+# वशिष्ठ तिवारी &#8201;|&#8201; he/him &#8201;|&#8201; AI@CMU &#8201;|&#8201; Physics+Math @UofR
+# वशिष्ठ तिवारी • he/him • AI@<a href='https://www.cmu.edu/'>CMU</a> • Physics+Math @<a href='https://www.rochester.edu/'>UofR</a>
 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 # <p>555 your office number</p>
 # <p>123 your address street</p>
@@ -17,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Vashisth (people call me Vash as well). I'm a second-year Master's student in the ECE Dept at CMU focusing on AI. In my undergrad, I studied Mathematics and Physics at the University of Rochester.  I am generally interested in two broad categories of research: improving LLMs in reasoning and data-scarce areas, and optimizing LLM inference. Currently, I'm exploring model-aware, active synthetic data generation.
+Hi! I'm Vashisth (people call me Vash as well). I'm a second-year Master's student in the ECE Dept at <a href='https://www.cmu.edu/'>  Carnegie Mellon University</a> focusing on AI. I am broadly interested in improving LLMs in reasoning and data-scarce areas, model compression, and optimizing LLM inference. Currently, I'm exploring model-aware, active synthetic data generation.
 
 I have been fortunate to work with some amazing people across physics, math, and AI. I currently work with mentors [Clara Na](https://clarasna.com/) and [Lucio Dery](https://ldery.github.io/#) in Professor [Emma Strubell](https://strubell.github.io/)'s lab. Previously, I worked with Professor [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) on using speculative decoding to improve throughput and latency, self-speculation by utilizing weight, activation, and contextual sparsity. 
 
@@ -26,10 +28,10 @@ My research began with Professor [Segev BenZvi](https://www.pas.rochester.edu/~s
 
 During my summers, I have had the pleasure to work at **Los Alamos National Laboratory** with Dr. [Malcolm Boshier](https://www.matterwaveoptics.eu/FOMO2024/malcolm-boshier/) on optimizing quantum systems. I also gained experience as a Quantitative Research Intern at Mana under mentors [Max Novendstern](https://www.linkedin.com/in/maxnovendstern/) and [David Kaufman](https://www.linkedin.com/in/davidwkaufman/).
 
-### Life Beyond Work </h2> <!--Change this section name if you think of something better. Professor Emma uses /etc, so maybe use that for inspiration-->  
-When I’m not huddled over my laptop, I’m probably out capturing the world through my camera lens—you can check out my photography <a href="https://vashisthtiwari.myportfolio.com/">here</a>. I was also on the badminton team at the University of Rochester, and now I’m trying (and sometimes failing) to learn tennis and frisbee.</p>
+### /etc. <!--Change this section name if you think of something better. Professor Emma uses /etc, so maybe use that for inspiration-->  
+When I’m not huddled over my laptop, I’m probably out capturing the world through my camera lens—you can check out my <a href="https://vashisthtiwari.myportfolio.com/">photography here</a>. I was also on the badminton team at the University of Rochester, and now I’m trying (and sometimes failing) to learn tennis and frisbee.
 
-<p>And yes, I <em>love</em> food and coffee, probably a bit too much. I’m always on the lookout for new food spots and cafes, so if you have recommendations, send them my way!</p>
+And yes, I <em>love</em> food and coffee, probably a bit too much. I’m always on the lookout for new food spots and cafes, so if you have recommendations, send them my way!
 
 <!-- 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
