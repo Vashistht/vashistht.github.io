@@ -25,7 +25,7 @@
         - "<strong>GPA:</strong> 3.97/4.00"
         # - "Awards: Semi-Finalist Rhodes Scholarship India (2022); Harry W. Fulbright Prize, Undergrad Teaching Award (2023)"
 
-- title: <strong Experience </strong>
+- title: <strong> Experience </strong>
   type: time_table
   contents:
     - title: Research Assistant
@@ -39,6 +39,7 @@
     - title: Research Assistant 
       institution: <a href="https://keroro824.github.io/lab-page/"> InifiniAI Lab</a>, w/ Prof. Beidi Chen  #Efficient Inferencing for Large Language Models
       year: 03/2024 - 08/2024
+      location: Pittsburgh, PA
       description:
         # <strong>Research+Engineering Question:</strong> 
         - How can speculative decoding be used to improve throughput and latency in LLMs; what are the best models for speculative decoding setups in different conditions?
