@@ -210,7 +210,8 @@ let transTheme = () => {
 let determineThemeSetting = () => {
   let themeSetting = localStorage.getItem("theme");
   if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
-    themeSetting = "system";
+    themeSetting = "light";  // @ edited: vashistht Changed default from "system" to "light"
+    // themeSetting = "system"; // default
   }
   return themeSetting;
 };
@@ -233,7 +234,10 @@ let determineComputedTheme = () => {
 
 let initTheme = () => {
   let themeSetting = determineThemeSetting();
-
+  // edited: vashistht If it's the first visit and no theme is set, default to light
+  if (!localStorage.getItem("theme")) {
+    themeSetting = "light";
+  }
   setThemeSetting(themeSetting);
 
   // Add event listener to the theme toggle button.
