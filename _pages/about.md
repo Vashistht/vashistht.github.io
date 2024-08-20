@@ -28,7 +28,15 @@ My research journey began started with my work in [Dark Energy Spectroscopic Ins
 
 Outside of academia, I've had the privilege of interning at [Los Alamos National Laboratory](https://about.lanl.gov/) under Dr. [Malcolm Boshier](https://www.matterwaveoptics.eu/FOMO2024/malcolm-boshier/) where I worked on optimizing quantum systems. I've also gained valuable experience as a Quantitative Research Intern at Mana, mentored by [Max Novendstern](https://www.linkedin.com/in/maxnovendstern/) and [David Kaufman](https://www.linkedin.com/in/davidwkaufman/).
 
+----
+
 #### `/bits-&-bytes`
+<!-- <p style="font-size: 1em;" > -->
 When I’m not hunching over my laptop, you’ll find me behind a camera lens—check out my <a href="https://vashisthtiwari.myportfolio.com/">photography portfolio</a> here. I spent much of my life playing badminton, including on the team at the University of Rochester, and now I’m attempting (and miserably failing) to learn tennis. You might also spot me tossing a frisbee at the CUT.
+<!-- <br> -->
+
 
 And yes, I <em>love</em> food and coffee, perhaps a bit too much. I’m always on the lookout for new spots, so if you have recommendations, send them my way!
+<!-- </p> -->
+
+----

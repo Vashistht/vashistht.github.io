@@ -7,7 +7,7 @@ first_name: Vashisth
 middle_name: 
 last_name: Tiwari 
 email: vashistt@andrew.cmu.edu
-description: > # he/him # the ">" symbol means to ignore newlines until "footer_text:" वशिष्ठ तिवारी | 
+description: this is the personal website of Vashisth Tiwari / Vash Tiwari, a graduate student at Carnegie Mellon and a graduate of University of Rochester. # he/him # the ">" symbol means to ignore newlines until "footer_text:" वशिष्ठ तिवारी | 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -117,12 +117,12 @@ contact_note: >
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: G-9X0NQ2KT6N # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
+google_site_verification: google37fd90e83570050b.html # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
