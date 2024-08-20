@@ -78,7 +78,7 @@ Outside of academia, I've had the privilege of interning at [Los Alamos National
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: opacity 0.05s ease-in-out;
+  transition: opacity 2s ease-in-out;
   object-fit: cover;
 }
 
