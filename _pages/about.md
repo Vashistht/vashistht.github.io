@@ -31,12 +31,128 @@ Outside of academia, I've had the privilege of interning at [Los Alamos National
 ----
 
 #### `/bits-&-bytes`
-<!-- <p style="font-size: 1em;" > -->
-When I’m not hunching over my laptop, you’ll find me behind a camera lens—check out my <a href="https://vashisthtiwari.myportfolio.com/">photography portfolio</a> here. I spent much of my life playing badminton, including on the team at the University of Rochester, and now I’m attempting (and miserably failing) to learn tennis. You might also spot me tossing a frisbee at the CUT.
-<!-- <br> -->
+<div class="bits-and-bytes">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="slider">
+        <img src="assets/img/DSCF4311.jpg" alt="Image 1" class="slide active">
+        <img src="assets/img/DSCF8875-4.jpg" alt="Image 2" class="slide">
+        <img src="assets/img/DSCF0897.jpg" alt="Image 4" class="slide">
+        <img src="assets/img/DSCF5992.jpg" alt="Image 3" class="slide">
+        <img src="assets/img/DSCF5200.jpg" alt="Image 3" class="slide">
+         <img src="assets/img/DSCF3806-2.jpg" alt="Image 3" class="slide">
+        <img src="assets/img/DSCF0402-2.jpg" alt="Image 3" class="slide">
+          <img src="assets/img/DSCF4386.jpg" alt="Image 3" class="slide">
+      </div>
+    </div>
+    <div class="col-md-6">
+        <p>
+          When I'm not hunching over my laptop, you'll find me behind a camera lens—check out my <a href="https://vashisthtiwari.myportfolio.com/">photography portfolio</a>.
+          I spent much of my life playing badminton, including on the team at the University of Rochester, and now I'm attempting (and miserably failing) to learn tennis. You might also spot me tossing a frisbee at the CUT.
+        </p>
+        <p>
+          And yes, I <em>love</em> food and coffee, perhaps a bit too much. I'm always on the lookout for new spots, so if you have recommendations, send them my way!
+        </p>
+    </div>
+  </div>
+</div>
 
+<style>
+.bits-and-bytes {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 
-And yes, I <em>love</em> food and coffee, perhaps a bit too much. I’m always on the lookout for new spots, so if you have recommendations, send them my way!
-<!-- </p> -->
+.slider {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%; /* Adjust this value to match your image aspect ratio */
+  overflow: hidden;
+}
 
-----
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.05s ease-in-out;
+  object-fit: cover;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.content-text h2 {
+  margin-bottom: 20px;
+}
+
+.content-text p {
+  margin-bottom: 15px;
+}
+
+.portfolio-link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.portfolio-link:hover {
+  color: #0056b3;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const slides = document.querySelectorAll('.slide');
+  let currentSlide = 0;
+  let slideInterval;
+
+  function showSlide(index) {
+    slides[currentSlide].classList.remove('active');
+    slides[index].classList.add('active');
+    currentSlide = index;
+  }
+
+  function nextSlide() {
+    let next = (currentSlide + 1) % slides.length;
+    showSlide(next);
+  }
+
+  function prevSlide() {
+    let prev = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(prev);
+  }
+
+  function startSlideshow() {
+    slideInterval = setInterval(nextSlide, 5000); // Change slide every 5 seconds
+  }
+
+  function stopSlideshow() {
+    clearInterval(slideInterval);
+  }
+
+  // Keyboard navigation
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowRight') {
+      stopSlideshow();
+      nextSlide();
+      startSlideshow();
+    } else if (e.key === 'ArrowLeft') {
+      stopSlideshow();
+      prevSlide();
+      startSlideshow();
+    }
+  });
+
+  // Start the slideshow
+  startSlideshow();
+
+  // Optional: Pause slideshow on hover
+  const sliderElement = document.querySelector('.slider');
+  sliderElement.addEventListener('mouseenter', stopSlideshow);
+  sliderElement.addEventListener('mouseleave', startSlideshow);
+});
+</script>

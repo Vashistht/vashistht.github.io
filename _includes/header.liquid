@@ -25,7 +25,8 @@
         .semi-bold {
           font-weight: 620;
         }
-        </style>
+      </style>
+
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
@@ -79,7 +80,7 @@
               {% endif %}
             </a>
           </li>
-
+          
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
@@ -131,7 +132,11 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-
+          <!-- Photography Portfolio @vashistht edited--> 
+            <li class="nav-item">
+                <a class="nav-link" href="https://vashisthtiwari.myportfolio.com/" target="_blank">photography</a>
+            </li>
+          <!-- Search-->
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
