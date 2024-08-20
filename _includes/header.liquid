@@ -5,8 +5,12 @@
       {% if page.permalink == '/' %}
         <!-- Left-aligned Name or Custom Message (only on about/home page) -->
         <a class="navbar-brand mr-auto" href="{{ site.baseurl }}/">
-          {% if site.custom_navbar_message %}
-            {{ site.custom_navbar_message }}
+        {% if site.custom_navbar_message %}
+          {% assign words = site.custom_navbar_message | split: " " %}
+          <span class="semi-bold">{{ words | first }}</span>
+          {% if words.size > 1 %}
+            {{ words | shift | join: " " }}
+          {% endif %}
           {% else %}
             {% if site.first_name %}
               <span class="font-weight-bold">{{- site.first_name -}}</span>
@@ -16,7 +20,12 @@
           {% endif %}
         </a>
       {% endif %}
-
+      <!--- CSS part (add this to your stylesheet) --->
+      <style>
+        .semi-bold {
+          font-weight: 620;
+        }
+        </style>
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
