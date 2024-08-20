@@ -39,9 +39,7 @@ toc:
 
 ## Introduction
 
-This project, completed for the Introduction to Deep Learning course, focused on Visual Prompt Tuning (VPT) in Vision Transformers (ViT) <d-cite key="jia2022visualprompttuning"></d-cite>. We explored the effectiveness and applications of VPT through various experiments and ablation studies. Our team, consisting of [Your Name], Disha Hegde, and Henry Wong, delved into the intricacies of this emerging technique in computer vision.
-
-You can find a short summary of our project in this [video presentation](https://youtu.be/dUh8MXHKvNE?si=efeuhlRyoUFlVIlB).
+This project, completed for the Introduction to Deep Learning course, focused on Visual Prompt Tuning (VPT) in Vision Transformers (ViT) <d-cite key="jia2022visualprompttuning"></d-cite>. We explored the effectiveness and applications of VPT through various experiments and ablation studies. You can find a short summary of our project in this [video presentation](https://youtu.be/dUh8MXHKvNE?si=efeuhlRyoUFlVIlB).
 
 ## Key Concepts
 

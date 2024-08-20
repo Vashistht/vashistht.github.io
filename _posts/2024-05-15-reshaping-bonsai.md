@@ -45,9 +45,7 @@ You can find more about the project in the paper here <a href="/assets/pdf/Resha
 
 ## Introduction
 
-This project, completed for the Advanced Natural Language Processing course, focused on improving the Bonsai <d-cite key="dery2024everybodyprunenowstructured"></d-cite> pruning method for Large Language Models (LLMs) with a specific emphasis on mathematical reasoning capabilities. Our team, consisting of Vashisth Tiwari, Amanda Li, and Emily Guo, explored the intricacies of LLM pruning and its impact on reasoning tasks.
-
-
+This project, completed for the Advanced Natural Language Processing course, focused on improving the Bonsai <d-cite key="dery2024everybodyprunenowstructured"></d-cite> pruning method for Large Language Models (LLMs) with a specific emphasis on mathematical reasoning capabilities. 
 
 
 <!-- <iframe src="/assets/pdf/ReshapingBonsai.pdf" width="100%" height="600px">
