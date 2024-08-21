@@ -156,3 +156,5 @@ document.addEventListener('DOMContentLoaded', function() {
   sliderElement.addEventListener('mouseleave', startSlideshow);
 });
 </script>
+
+----

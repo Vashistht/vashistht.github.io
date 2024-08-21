@@ -31,7 +31,7 @@
     - title: Research Assistant
       institution: <a href="https://strubell.github.io/slab/"> SLAB Lab</a>, w/ Prof. Emma Strubell
       location: Pittsburgh, PA
-      year: 08/2024 - Present
+      year: 08/2024 - cont.
       description:
         # <strong>Research Question:</strong>
         - How to do better synthetic data generation 🤔
@@ -100,25 +100,25 @@
 - title: <strong>  Teaching Experience </strong>
   type: time_table
   contents:
-    - title: Advanced NLP
+    - title: <a href="https://phontron.com/class/anlp-fall2024/"> Advanced NLP (11-711)</a>
       institution: Language Technologies Institute, CMU
       year: 08/2024 - 12/2024
     
-    - title: Advanced Quantum Mechanics
+    - title: Quantum Theory (Phys-246)
       institution: Department of Physics and Astronomy
       year: 01/2023 - 05/2023
     
-    - title: Advanced Electromagnetism
+    - title: Advanced Electricity & Magnetism (Phys-217)
       institution: Department of Physics and Astronomy
       year: 08/2022 - 12/2022
     
-    - title: Waves and Modern Physics (Honors)
+    - title: 20th Century Physics Honors (Phys-143) 
       institution: Department of Physics and Astronomy
       year: 01/2021 - 05/2021
       # description:
       #   - Held weekly workshops to aid the lecture material with practice questions and an overview of the key concepts
       #   - Assisted 30 students with weekly assignments in office hours, graded exams and homework
-    - title: Introduction to Programming using Python
+    - title: Introduction to Programming using Python (CSC-161)
       institution: Department of Computer Science
       year: 08/2020 - 12/2020
       # description:
@@ -145,7 +145,7 @@
         - "Regional Silver Medal, Northeastern Collegiate Badminton Conference (Division 2)"
     - year: 2020
       items:
-        - "University Summer Research Grant ($1500 grant given to 66 students in total)"
+        - '<a href="https://www.rochester.edu/college/student-funding/discover-grant.html"> University Summer Research Grant</a> ($1500 grant given to 66 students in total)'
     - year: 2019
       items:
         - '<a href="https://www.next-genius.com">Next Genius Scholar</a> + <a href="https://www.rochester.edu/financial-aid/scholarships/#merit">IB Scholar</a>(Full scholarship to attend the University of Rochester)'
