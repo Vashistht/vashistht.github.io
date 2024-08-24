@@ -1,10 +1,10 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Name
-      value: Vashisth Tiwari
-    - name: Languages
-      value: English, Hindi
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Name
+#       value: Vashisth Tiwari
+#     - name: Languages
+#       value: English, Hindi
 
 - title: <strong> Education </strong>
   type: time_table
