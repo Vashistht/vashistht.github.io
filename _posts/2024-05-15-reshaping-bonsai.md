@@ -10,7 +10,7 @@ categories:
   - pruning
 giscus_comments: false
 date: 2024-05-21
-featured: true
+featured: false
 thumbnail: assets/img/reshaping-bonsai.png
 
 authors:

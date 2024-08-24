@@ -9,7 +9,7 @@ categories:
   - visual-prompt-tuning
 giscus_comments: false
 date: 2024-05-20
-featured: true
+featured: false
 thumbnail: assets/img/visual-prompt-tuning.png
 # thumbnail: assets/img/9.jpg
 

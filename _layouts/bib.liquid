@@ -37,12 +37,14 @@
             sizes = "200px"
             class="preview z-depth-1 rounded"
             zoomable=true
+            style="background: none;" 
             alt=entry.preview
           %}
         {% endif %}
       {% endif %}
     </div>
   {% endif %}
+  {% comment %} style="background: none;" # edited: vashisth {% endcomment %}
 
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
