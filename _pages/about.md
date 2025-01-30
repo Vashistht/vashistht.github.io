@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Vashisth (or just Vash). I'm a second-year Master's student in the ECE Dept at <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>, focusing on AI. Before this, I studied Physics and Math at the <a href='https://www.rochester.edu/'>University of Rochester</a>. I am broadly interested in improving LLMs in reasoning and data-scarce areas, model compression, and optimizing LLM inference.
+Hi! I'm Vashisth (or just Vash). I currently work as a Research Assistant with Prof. [Emma Strubell](https://strubell.github.io/) where I am working on syntehtic data, mathematical reasoning, and green-Ai. In December 2024, I graduated from my master's in the ECE Dept at <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>, focusing on AI. Before this, I studied Physics and Math at the <a href='https://www.rochester.edu/'>University of Rochester</a>. I am broadly interested in improving LLMs in reasoning and data-scarce areas, model compression, and optimizing LLM inference.
 
 I’ve had the privilege of working with exceptional mentors across physics, math, and AI. Currently, under the mentorship of [Clara Na](https://clarasna.com/) and [Lucio Dery](https://ldery.github.io/#) in Prof. [Emma Strubell](https://strubell.github.io/)'s lab, I am exploring model-aware and active synthetic data generation. Previously, I worked with Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) on using speculative decoding to improve throughput and latency, self-speculation by utilizing weight, activation, and contextual sparsity. 
 
