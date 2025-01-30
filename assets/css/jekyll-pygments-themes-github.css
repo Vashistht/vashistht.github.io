@@ -207,3 +207,9 @@
 .highlight .il {
   color: #009999;
 } /* Literal.Number.Integer.Long */
+.post-source {
+  color: #666;
+  font-style: italic;
+  margin-top: -0.5em;
+  margin-bottom: 1em;
+}

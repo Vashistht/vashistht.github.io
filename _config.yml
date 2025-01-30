@@ -167,10 +167,18 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   # - name: medium.com
     # rss_url: https://medium.com/@al-folio/feed
-  - name: Blog on MagicDec (our work that shows how speculative decoding can be used to improve throughput and latency in LLMs for large batches) 
+  - name: Blog on MagicDec
     posts:
-      - url: https://infini-ai-lab.github.io/MagicDec/ 
+      - url: https://infini-ai-lab.github.io/MagicDec/
         published_date: 2024-08-23
+        display_name: "Blog with Infini AI Lab"  
+
+  - name: together.ai blog on MagicDec
+    posts:
+      - url: "https://www.together.ai/blog/speculative-decoding-for-high-throughput-long-context-inference"
+        published_date: 2024-09-05
+        display_name: "Blog with Together.ai"    
+
 
 # -----------------------------------------------------------------------------
 # Newsletter
