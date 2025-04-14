@@ -19,12 +19,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Vashisth (or just Vash). I currently work as a Research Assistant with Prof. [Emma Strubell](https://strubell.github.io/) where I am working on syntehtic data, mathematical reasoning, and green-Ai. In December 2024, I graduated from my master's in the ECE Dept at <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>, focusing on AI. Before this, I studied Physics and Math at the <a href='https://www.rochester.edu/'>University of Rochester</a>. I am broadly interested in improving LLMs in reasoning and data-scarce areas, model compression, and optimizing LLM inference.
+Hi! I'm Vashisth (or just Vash). I currently work as a Research Assistant with Prof. [Emma Strubell](https://strubell.github.io/) where I am working on syntehtic data, mathematical reasoning, and green-Ai. I will be joining LTI PhD cohort in Fall'25.
+
+In December 2024, I graduated from my master's in the ECE Dept at <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>, focusing on AI. Before this, I studied Physics and Math at the <a href='https://www.rochester.edu/'>University of Rochester</a>. I am broadly interested in improving LLMs in reasoning and data-scarce areas, model compression, and optimizing LLM inference.
 
 I’ve had the privilege of working with exceptional mentors across physics, math, and AI. Currently, under the mentorship of [Clara Na](https://clarasna.com/) and [Lucio Dery](https://ldery.github.io/#) in Prof. [Emma Strubell](https://strubell.github.io/)'s lab, I am exploring model-aware and active synthetic data generation. Previously, I worked with Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) on using speculative decoding to improve throughput and latency, self-speculation by utilizing weight, activation, and contextual sparsity. 
 
 My research journey began with my work in [Dark Energy Spectroscopic Instrument](https://www.desi.lbl.gov) with Prof. [Segev BenZvi](https://www.pas.rochester.edu/~sybenzvi/) and with Prof. [Machiel Blok](https://labsites.rochester.edu/bloklab/team/) on superconducting qubits.
- <!-- where I worked on ML algorithms to identify supernovae in the Dark Energy Spectroscopic Instrument. I also worked with Prof. [Machiel Blok](https://labsites.rochester.edu/bloklab/team/) on quantifying noise in super conducting qubits. -->
 
 Outside of academia, I've had the privilege of interning at [Los Alamos National Laboratory](https://about.lanl.gov/) under Dr. [Malcolm Boshier](https://www.matterwaveoptics.eu/FOMO2024/malcolm-boshier/) where I worked on optimizing quantum systems. I've also gained valuable experience as a Quantitative Research Intern at Mana, mentored by [Max Novendstern](https://www.linkedin.com/in/maxnovendstern/) and [David Kaufman](https://www.linkedin.com/in/davidwkaufman/).
 
