@@ -11,10 +11,10 @@
   contents:
     - title: Master of Science in Artificial Intelligence Engineering
       institution: <a href="https://www.cmu.edu/">Carnegie Mellon University</a>  
-      location: Pittsburgh, PA
+      location: Pittsburgh, PA 
       year: 08/2023 - 12/2024
       description:
-        - "<strong>GPA:</strong> 4.00/4.00"
+        # - "<strong>GPA:</strong> 4.00/4.00"
         - "<strong>Courses:</strong> Advanced Natural Language Processing, Deep Learning, Machine Learning, AI Systems, Stochastic Processes"
         # - "Awards: Winner, Citadel Securities x CMU Trading Challenge"
     - title: Bachelor of Science in Physics, Bachelor of Arts in Mathematics
@@ -22,7 +22,7 @@
       location: Rochester, NY
       year: 08/2019 - 05/2023
       description:
-        - "<strong>GPA:</strong> 3.97/4.00"
+        # - "<strong>GPA:</strong> 3.97/4.00"
     - title: International Baccalaureate Diploma
       institution: <a href="https://uwcmahindracollege.org/">Mahindra United World College </a>
       location: Pune, India

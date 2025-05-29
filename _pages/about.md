@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: / 
-subtitle: he/him &#9475;AI @CMU &#9475;Physics+Math @UofR
+subtitle:  PhD @<a href='https://www.lti.cs.cmu.edu'>CMU-LTI</a> &#9475; Student Researcher @<a href='https://research.google'>GoogleResearch</a>
+# he/him &#9475;
+# &#9475;Physics+Math @UofR
 # वशिष्ठ तिवारी &#8201;|&#8201; he/him &#8201;|&#8201; AI@CMU &#8201;|&#8201; Physics+Math @UofR
 # वशिष्ठ तिवारी • he/him • AI@<a href='https://www.cmu.edu/'>CMU</a> • Physics+Math @<a href='https://www.rochester.edu/'>UofR</a>
 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
@@ -19,15 +21,15 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Vashisth (or just Vash). I currently work as a Research Assistant with Prof. [Emma Strubell](https://strubell.github.io/) where I am working on syntehtic data, mathematical reasoning, and green-Ai. I will be joining LTI PhD cohort in Fall'25.
+Hi! I'm Vashisth; also go by Vash. I currently work as a Research Assistant with Prof. [Emma Strubell](https://strubell.github.io/) where I am working on synthetic data, mathematical reasoning, and green-Ai. I will be joining LTI PhD cohort in Fall '25. I am broadly interested in improving LLMs in reasoning and data-scarce areas, model compression, and optimizing LLM inference.
 
-In December 2024, I graduated from my master's in the ECE Dept at <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>, focusing on AI. Before this, I studied Physics and Math at the <a href='https://www.rochester.edu/'>University of Rochester</a>. I am broadly interested in improving LLMs in reasoning and data-scarce areas, model compression, and optimizing LLM inference.
+I did MS in the ECE Dept at <a href='https://www.cmu.edu/'>Carnegie Mellon University</a> in 2024. Before this, I studied Physics & Mathematics at the <a href='https://www.rochester.edu/'>University of Rochester</a> ('2023).
 
 I’ve had the privilege of working with exceptional mentors across physics, math, and AI. Currently, under the mentorship of [Clara Na](https://clarasna.com/) and [Lucio Dery](https://ldery.github.io/#) in Prof. [Emma Strubell](https://strubell.github.io/)'s lab, I am exploring model-aware and active synthetic data generation. Previously, I worked with Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) on using speculative decoding to improve throughput and latency, self-speculation by utilizing weight, activation, and contextual sparsity. 
 
-My research journey began with my work in [Dark Energy Spectroscopic Instrument](https://www.desi.lbl.gov) with Prof. [Segev BenZvi](https://www.pas.rochester.edu/~sybenzvi/) and with Prof. [Machiel Blok](https://labsites.rochester.edu/bloklab/team/) on superconducting qubits.
+<!-- My research journey began with my work in [Dark Energy Spectroscopic Instrument](https://www.desi.lbl.gov) with Prof. [Segev BenZvi](https://www.pas.rochester.edu/~sybenzvi/) and with Prof. [Machiel Blok](https://labsites.rochester.edu/bloklab/team/) on superconducting qubits.
 
-Outside of academia, I've had the privilege of interning at [Los Alamos National Laboratory](https://about.lanl.gov/) under Dr. [Malcolm Boshier](https://www.matterwaveoptics.eu/FOMO2024/malcolm-boshier/) where I worked on optimizing quantum systems. I've also gained valuable experience as a Quantitative Research Intern at Mana, mentored by [Max Novendstern](https://www.linkedin.com/in/maxnovendstern/) and [David Kaufman](https://www.linkedin.com/in/davidwkaufman/).
+Outside of academia, I've had the privilege of interning at [Los Alamos National Laboratory](https://about.lanl.gov/) under Dr. [Malcolm Boshier](https://www.matterwaveoptics.eu/FOMO2024/malcolm-boshier/) where I worked on optimizing quantum systems. I've also gained valuable experience as a Quantitative Research Intern at Mana, mentored by [Max Novendstern](https://www.linkedin.com/in/maxnovendstern/) and [David Kaufman](https://www.linkedin.com/in/davidwkaufman/). -->
 
 ----
 
