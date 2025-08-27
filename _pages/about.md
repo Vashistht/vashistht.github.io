@@ -14,7 +14,7 @@ subtitle:  PhD @<a href='https://www.lti.cs.cmu.edu'>CMU-LTI</a> &#9475; Student
 news: true # includes a list of news items
 profile:
   align: right
-  image: prof_pic_copy.jpg
+  image: prof_pic_2.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
 selected_papers: false # includes a list of papers marked as "selected={true}"
