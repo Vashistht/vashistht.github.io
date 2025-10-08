@@ -6,153 +6,153 @@
 #     - name: Languages
 #       value: English, Hindi
 
-- title: <strong> Education </strong>
-  type: time_table
-  contents:
-    - title: Master of Science in Artificial Intelligence Engineering
-      institution: <a href="https://www.cmu.edu/">Carnegie Mellon University</a>  
-      location: Pittsburgh, PA 
-      year: 08/2023 - 12/2024
-      description:
-        # - "<strong>GPA:</strong> 4.00/4.00"
-        - "<strong>Courses:</strong> Advanced Natural Language Processing, Deep Learning, Machine Learning, AI Systems, Stochastic Processes"
-        # - "Awards: Winner, Citadel Securities x CMU Trading Challenge"
-    - title: Bachelor of Science in Physics, Bachelor of Arts in Mathematics
-      institution: <a href="https://www.rochester.edu/">University of Rochester</a> 
-      location: Rochester, NY
-      year: 08/2019 - 05/2023
-      description:
-        # - "<strong>GPA:</strong> 3.97/4.00"
-    - title: International Baccalaureate Diploma
-      institution: <a href="https://uwcmahindracollege.org/">Mahindra United World College </a>
-      location: Pune, India
-      year: 08/2016 - 05/2018
-        # - "Awards: Semi-Finalist Rhodes Scholarship India (2022); Harry W. Fulbright Prize, Undergrad Teaching Award (2023)"
+# - title: <strong> Education </strong>
+#   type: time_table
+#   contents:
+#     - title: Master of Science in Artificial Intelligence Engineering
+#       institution: <a href="https://www.cmu.edu/">Carnegie Mellon University</a>  
+#       location: Pittsburgh, PA 
+#       year: 08/2023 - 12/2024
+#       description:
+#         # - "<strong>GPA:</strong> 4.00/4.00"
+#         - "<strong>Courses:</strong> Advanced Natural Language Processing, Deep Learning, Machine Learning, AI Systems, Stochastic Processes"
+#         # - "Awards: Winner, Citadel Securities x CMU Trading Challenge"
+#     - title: Bachelor of Science in Physics, Bachelor of Arts in Mathematics
+#       institution: <a href="https://www.rochester.edu/">University of Rochester</a> 
+#       location: Rochester, NY
+#       year: 08/2019 - 05/2023
+#       description:
+#         # - "<strong>GPA:</strong> 3.97/4.00"
+#     - title: International Baccalaureate Diploma
+#       institution: <a href="https://uwcmahindracollege.org/">Mahindra United World College </a>
+#       location: Pune, India
+#       year: 08/2016 - 05/2018
+#         # - "Awards: Semi-Finalist Rhodes Scholarship India (2022); Harry W. Fulbright Prize, Undergrad Teaching Award (2023)"
 
-- title: <strong> Experience </strong>
-  type: time_table
-  contents:
-    - title: Research Assistant
-      institution: <a href="https://strubell.github.io/slab/"> SLAB Lab</a>, w/ Prof. Emma Strubell
-      location: Pittsburgh, PA
-      year: 08/2024 - cont.
-      description:
-        # <strong>Research Question:</strong>
-        - How to do better synthetic data generation 🤔
-        # - Optimizing LLM inferencing via speculative decoding; working on ways to increase the alignment between small and large models
-    - title: Research Assistant 
-      institution: <a href="https://keroro824.github.io/lab-page/"> InifiniAI Lab</a>, w/ Prof. Beidi Chen  #Efficient Inferencing for Large Language Models
-      year: 03/2024 - 08/2024
-      location: Pittsburgh, PA
-      description:
-        # <strong>Research+Engineering Question:</strong> 
-        - How can speculative decoding be used to improve throughput and latency in LLMs; what are the best models for speculative decoding setups in different conditions?
-        # - Optimizing LLM inferencing via speculative decoding; working on ways to increase the alignment between small and large models
-        # - Working on ways to combine different pruning strategies (weight and activation sparsity) in large language models
-    - title: Research Intern
-      institution: Mana # Finance Corporation
-      year: 05/2022 - 08/2022
-      location: San Francisco, CA
-      description:
-        # - <strong>Research+Engineering Question:</strong> 
-        - How can we use statistical techniques to better quantify the risks of investments and build better pipelines for tracking data from the source?
-        # - Utilized statistical techniques to analyze stock price distributions and quantify investment risk, resulting in predictive machine learning models for assessing expected yields on potential investments
-        # - Developed a demonstrative project prototype illustrating the feasibility of directly tracking data from the block-chain for Ethereum on UniSwap, eliminating reliance on third-party data streams
-    - title: Undergraduate Research Assistant
-      institution: <a href="https://labsites.rochester.edu/bloklab/"> Blok Lab </a>, w/ Prof. Machiel Blok
-      location: Rochester, NY
-      year: 09/2021 - 05/2023
-      description:
-        # <strong>Research Question:</strong>
-        - How can we characterize noise and reduce readout errors in superconducting quantum qubits?
-        # - Characterized the noise in a quantum computer by comparing the probability distributions of the lab data with the expected distributions from quantum and statistical physics
-        # - Built Infrared noise filters using Eccosorb absorbers to increase coherence time in cryogenic microwave setup
-        # - Using neural networks to classify different readouts of different levels to reduce readout errors in the setup
-    - title: Research Intern
-      institution: Los Alamos National Laboratory, w/ Dr. Malcolm Boshier
-      location: Los Alamos, NM
-      year: 06/2021 - 08/2021
-      description:
-        # <strong>Research Question:</strong>
-        - Is it possible to improve the performance of atom interferometers perhaps using ML and high-dimensional optimization?
-        # - Modeled complex quantum system (atom interferometer beam splitting) using Python and utilized numerical differential equation solvers in Mathematica and Python
-        # - Discovered optimal laser pulse parameters through high-dimensional data optimization and parameter estimation using SciPy, CvxPy, and improved the system performance by 5% beyond the current state-of-the-art pulse parameters
+# - title: <strong> Experience </strong>
+#   type: time_table
+#   contents:
+#     - title: Research Assistant
+#       institution: <a href="https://strubell.github.io/slab/"> SLAB Lab</a>, w/ Prof. Emma Strubell
+#       location: Pittsburgh, PA
+#       year: 08/2024 - cont.
+#       description:
+#         # <strong>Research Question:</strong>
+#         - How to do better synthetic data generation 🤔
+#         # - Optimizing LLM inferencing via speculative decoding; working on ways to increase the alignment between small and large models
+#     - title: Research Assistant 
+#       institution: <a href="https://keroro824.github.io/lab-page/"> InifiniAI Lab</a>, w/ Prof. Beidi Chen  #Efficient Inferencing for Large Language Models
+#       year: 03/2024 - 08/2024
+#       location: Pittsburgh, PA
+#       description:
+#         # <strong>Research+Engineering Question:</strong> 
+#         - How can speculative decoding be used to improve throughput and latency in LLMs; what are the best models for speculative decoding setups in different conditions?
+#         # - Optimizing LLM inferencing via speculative decoding; working on ways to increase the alignment between small and large models
+#         # - Working on ways to combine different pruning strategies (weight and activation sparsity) in large language models
+#     - title: Research Intern
+#       institution: Mana # Finance Corporation
+#       year: 05/2022 - 08/2022
+#       location: San Francisco, CA
+#       description:
+#         # - <strong>Research+Engineering Question:</strong> 
+#         - How can we use statistical techniques to better quantify the risks of investments and build better pipelines for tracking data from the source?
+#         # - Utilized statistical techniques to analyze stock price distributions and quantify investment risk, resulting in predictive machine learning models for assessing expected yields on potential investments
+#         # - Developed a demonstrative project prototype illustrating the feasibility of directly tracking data from the block-chain for Ethereum on UniSwap, eliminating reliance on third-party data streams
+#     - title: Undergraduate Research Assistant
+#       institution: <a href="https://labsites.rochester.edu/bloklab/"> Blok Lab </a>, w/ Prof. Machiel Blok
+#       location: Rochester, NY
+#       year: 09/2021 - 05/2023
+#       description:
+#         # <strong>Research Question:</strong>
+#         - How can we characterize noise and reduce readout errors in superconducting quantum qubits?
+#         # - Characterized the noise in a quantum computer by comparing the probability distributions of the lab data with the expected distributions from quantum and statistical physics
+#         # - Built Infrared noise filters using Eccosorb absorbers to increase coherence time in cryogenic microwave setup
+#         # - Using neural networks to classify different readouts of different levels to reduce readout errors in the setup
+#     - title: Research Intern
+#       institution: Los Alamos National Laboratory, w/ Dr. Malcolm Boshier
+#       location: Los Alamos, NM
+#       year: 06/2021 - 08/2021
+#       description:
+#         # <strong>Research Question:</strong>
+#         - Is it possible to improve the performance of atom interferometers perhaps using ML and high-dimensional optimization?
+#         # - Modeled complex quantum system (atom interferometer beam splitting) using Python and utilized numerical differential equation solvers in Mathematica and Python
+#         # - Discovered optimal laser pulse parameters through high-dimensional data optimization and parameter estimation using SciPy, CvxPy, and improved the system performance by 5% beyond the current state-of-the-art pulse parameters
       
-    - title: Summer Undergraduate Researcher
-      institution: <a href="https://geometrynyc.wixsite.com/polymathreu"> Polymath REU</a>, w/ Prof. Steven J. Miller
-      location: Online
-      year: 07/2020 - 08/2020
-      description:
-        # <strong>Research Question:</strong>
-        - What are some interesting properties of the Zeckendorf Game? Can we guarantee bounds on the length of the game, come up with winning strategies, etc.?
+#     - title: Summer Undergraduate Researcher
+#       institution: <a href="https://geometrynyc.wixsite.com/polymathreu"> Polymath REU</a>, w/ Prof. Steven J. Miller
+#       location: Online
+#       year: 07/2020 - 08/2020
+#       description:
+#         # <strong>Research Question:</strong>
+#         - What are some interesting properties of the Zeckendorf Game? Can we guarantee bounds on the length of the game, come up with winning strategies, etc.?
 
-        # - Contributed two proofs related to the bounds on the length of Zeckendorf Game, a number theory project
-        # - Verified these conjectures for large numbers using Mathematica and Python scripts
+#         # - Contributed two proofs related to the bounds on the length of Zeckendorf Game, a number theory project
+#         # - Verified these conjectures for large numbers using Mathematica and Python scripts
 
-    - title: Research Assistant
-      institution: <a href="https://www.desi.lbl.gov/">  Dark Energy Spectroscopic Instrument</a>, w/ Prof. Segev BenZvi
-      location: Rochester, NY
-      year: 01/2020 - 05/2021
-      description:
-        # <strong>Research Question:</strong>
-        -  How can we predict the occurrence of supernovae using spectral data from DESI so we can better use scarce high-resolution cameras?
-        # - Designed multi-class CNNs for spectral data with TensorFlow, scikit-learn to find galaxies with supernovae
-        # - Enhanced network performance by applying noise-removal techniques like binning, filtering to preprocess spectral data
-        # - Achieved 95%+ accuracy and high precision for supernovae classification tasks in the DESI data pipeline
+#     - title: Research Assistant
+#       institution: <a href="https://www.desi.lbl.gov/">  Dark Energy Spectroscopic Instrument</a>, w/ Prof. Segev BenZvi
+#       location: Rochester, NY
+#       year: 01/2020 - 05/2021
+#       description:
+#         # <strong>Research Question:</strong>
+#         -  How can we predict the occurrence of supernovae using spectral data from DESI so we can better use scarce high-resolution cameras?
+#         # - Designed multi-class CNNs for spectral data with TensorFlow, scikit-learn to find galaxies with supernovae
+#         # - Enhanced network performance by applying noise-removal techniques like binning, filtering to preprocess spectral data
+#         # - Achieved 95%+ accuracy and high precision for supernovae classification tasks in the DESI data pipeline
     
 
-- title: <strong>  Teaching Experience </strong>
-  type: time_table
-  contents:
-    - title: <a href="https://phontron.com/class/anlp-fall2024/"> Advanced NLP (11-711)</a>
-      institution: Language Technologies Institute, CMU
-      year: 08/2024 - 12/2024
+# - title: <strong>  Teaching Experience </strong>
+#   type: time_table
+#   contents:
+#     - title: <a href="https://phontron.com/class/anlp-fall2024/"> Advanced NLP (11-711)</a>
+#       institution: Language Technologies Institute, CMU
+#       year: 08/2024 - 12/2024
     
-    - title: Quantum Theory (Phys-246)
-      institution: Department of Physics and Astronomy
-      year: 01/2023 - 05/2023
+#     - title: Quantum Theory (Phys-246)
+#       institution: Department of Physics and Astronomy
+#       year: 01/2023 - 05/2023
     
-    - title: Advanced Electricity & Magnetism (Phys-217)
-      institution: Department of Physics and Astronomy
-      year: 08/2022 - 12/2022
+#     - title: Advanced Electricity & Magnetism (Phys-217)
+#       institution: Department of Physics and Astronomy
+#       year: 08/2022 - 12/2022
     
-    - title: 20th Century Physics Honors (Phys-143) 
-      institution: Department of Physics and Astronomy
-      year: 01/2021 - 05/2021
-      # description:
-      #   - Held weekly workshops to aid the lecture material with practice questions and an overview of the key concepts
-      #   - Assisted 30 students with weekly assignments in office hours, graded exams and homework
-    - title: Introduction to Programming using Python (CSC-161)
-      institution: Department of Computer Science
-      year: 08/2020 - 12/2020
-      # description:
-      #   - Guided 15 students with projects and weekly assignments in python through office hours and tutoring
-      #   - Responsible for grading weekly assignments, projects, and exams
+#     - title: 20th Century Physics Honors (Phys-143) 
+#       institution: Department of Physics and Astronomy
+#       year: 01/2021 - 05/2021
+#       # description:
+#       #   - Held weekly workshops to aid the lecture material with practice questions and an overview of the key concepts
+#       #   - Assisted 30 students with weekly assignments in office hours, graded exams and homework
+#     - title: Introduction to Programming using Python (CSC-161)
+#       institution: Department of Computer Science
+#       year: 08/2020 - 12/2020
+#       # description:
+#       #   - Guided 15 students with projects and weekly assignments in python through office hours and tutoring
+#       #   - Responsible for grading weekly assignments, projects, and exams
 
-- title: <strong>  Honors and Awards <strong />
-  type: time_table
-  contents:
-    - year: 2023
-      items: 
-        # - "Winner, Citadel Securities x CMU Trading Challenge"
-        - '<a href="https://www.sas.rochester.edu/pas/undergraduate/awards.html">The Undergraduate Teaching Award</a>'
-        - '<a href="https://www.sas.rochester.edu/pas/undergraduate/awards.html">The Harry W. Fulbright Prize</a>'
-        - "Inductee, Phi Beta Kappa Honors Society"
-    - year: 2022
-      items:
-        - "Semi-Finalist, Rhodes Scholarship Indian Consulate"
-        - "Inductee, Sigma Pi Sigma National Honors Society"
-        - '<a href="https://www.spsnational.org/awards/outstanding-chapter">Society of Physics Students Outstanding Chapter Awards</a>'
-    - year: 2021
-      items:
-        - '<a href="https://www.sas.rochester.edu/pas/undergraduate/awards.html">The Physics Honors Prize</a>'
-        # (Highest grade in the first two years of physics classes)'
-        - "Regional Silver Medal, Northeastern Collegiate Badminton Conference (Division 2)"
-    - year: 2020
-      items:
-        - '<a href="https://www.rochester.edu/college/student-funding/discover-grant.html"> University Summer Research Grant</a>'
-        # '($1500 grant given to 66 students in total)'
-    - year: 2019
-      items:
-        - '<a href="https://www.next-genius.com">Next Genius Scholar</a> + <a href="https://www.rochester.edu/financial-aid/scholarships/#merit">IB Scholar</a>(Full scholarship to the University of Rochester)'
-        # - <a href="https://www.davisuwcscholars.org">Shelby Davis UWC Scholar</a>
+# - title: <strong>  Honors and Awards <strong />
+#   type: time_table
+#   contents:
+#     - year: 2023
+#       items: 
+#         # - "Winner, Citadel Securities x CMU Trading Challenge"
+#         - '<a href="https://www.sas.rochester.edu/pas/undergraduate/awards.html">The Undergraduate Teaching Award</a>'
+#         - '<a href="https://www.sas.rochester.edu/pas/undergraduate/awards.html">The Harry W. Fulbright Prize</a>'
+#         - "Inductee, Phi Beta Kappa Honors Society"
+#     - year: 2022
+#       items:
+#         - "Semi-Finalist, Rhodes Scholarship Indian Consulate"
+#         - "Inductee, Sigma Pi Sigma National Honors Society"
+#         - '<a href="https://www.spsnational.org/awards/outstanding-chapter">Society of Physics Students Outstanding Chapter Awards</a>'
+#     - year: 2021
+#       items:
+#         - '<a href="https://www.sas.rochester.edu/pas/undergraduate/awards.html">The Physics Honors Prize</a>'
+#         # (Highest grade in the first two years of physics classes)'
+#         - "Regional Silver Medal, Northeastern Collegiate Badminton Conference (Division 2)"
+#     - year: 2020
+#       items:
+#         - '<a href="https://www.rochester.edu/college/student-funding/discover-grant.html"> University Summer Research Grant</a>'
+#         # '($1500 grant given to 66 students in total)'
+#     - year: 2019
+#       items:
+#         - '<a href="https://www.next-genius.com">Next Genius Scholar</a> + <a href="https://www.rochester.edu/financial-aid/scholarships/#merit">IB Scholar</a>(Full scholarship to the University of Rochester)'
+#         # - <a href="https://www.davisuwcscholars.org">Shelby Davis UWC Scholar</a>

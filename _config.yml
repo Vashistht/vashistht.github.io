@@ -13,7 +13,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: vashisth-tiwari, personal-website, academic-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🤔 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: VT.svg # :) # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 custom_navbar_message: वशिष्ठ तिवारी   # @vashistht: added custom navbar message
 url: https://vashistht.github.io  # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -203,7 +203,7 @@ collections:
     output: true
     permalink: /projects/:path/
   photography:
-    output: true
+    output: false
     permalink: /photography/:path/
 
 announcements:
@@ -256,10 +256,10 @@ exclude:
   - readme_preview/
   - vendor
   - _pages/repositories.md
-  - _pages/photography.md
+  # - _pages/photography.md
   # - _pages/blog.md
   - _pages/profiles.md
-  - _pages/teaching.md
+  # - _pages/teaching.md
   - _pages/projects.md
   - _pages/dropdown.md
   # - _pages/services.md
