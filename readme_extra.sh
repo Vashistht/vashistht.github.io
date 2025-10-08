@@ -1,3 +1,9 @@
+# download ruby
+bundle add observer
+bundle add logger
+brew install imagemagick
+bundle install
+bundle exec jekyll serve
 # how to install and deploy locally if you want to 
 bundle install     
 bundle exec jekyll serve   # to see changes locally
