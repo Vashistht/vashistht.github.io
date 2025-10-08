@@ -2,12 +2,13 @@
 layout: about
 title: about
 permalink: / 
-# subtitle:  PhD @<a href='https://www.lti.cs.cmu.edu'>CMU-LTI</a> &#9475; Student Researcher @<a href='https://research.google'>GoogleResearch</a>
-# he/him &#9475;
-# &#9475;Physics+Math @UofR
-# वशिष्ठ तिवारी &#8201;|&#8201; he/him &#8201;|&#8201; AI@CMU &#8201;|&#8201; Physics+Math @UofR
-# वशिष्ठ तिवारी • he/him • AI@<a href='https://www.cmu.edu/'>CMU</a> • Physics+Math @<a href='https://www.rochester.edu/'>UofR</a>
-# <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:  "PhD Student  @CarnegieMellon" 
+# &#9475 Student Researcher @<a href='https://research.google'>GoogleResearch</a> (Summer 2025) 
+# # he/him &#9475;
+# # &#9475;Physics+Math @UofR
+# # वशिष्ठ तिवारी &#8201;|&#8201; he/him &#8201;|&#8201; AI@CMU &#8201;|&#8201; Physics+Math @UofR
+# # वशिष्ठ तिवारी • he/him • AI@<a href='https://www.cmu.edu/'>CMU</a> • Physics+Math @<a href='https://www.rochester.edu/'>UofR</a>
+# # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 # <p>555 your office number</p>
 # <p>123 your address street</p>
 # <p>Your City, State 12345</p>
@@ -21,15 +22,17 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I’m a first-year PhD student at Carnegie Mellon University’s [Language Technologies Institute](https://www.lti.cs.cmu.edu). I completed my M.S. in Electrical and Computer Engineering at CMU and a B.S. in Physics and Mathematics at the [University of Rochester](https://www.rochester.edu/).  
-In summer 2025, I worked at Google Research as a Student Researcher with [Giulia DeSalvo](https://research.google/people/106565/), focusing on synthetic data generation and reinforcement learning.
+Hello! I’m a first-year PhD student at Carnegie Mellon University’s [Language Technologies Institute](https://www.lti.cs.cmu.edu).  
+I completed my M.S. in Electrical and Computer Engineering at CMU and a B.S. in Physics and Mathematics at the [University of Rochester](https://www.rochester.edu/). In summer 2025, I worked at Google Research as a Student Researcher with [Giulia DeSalvo](https://research.google/people/106565/), focusing on synthetic data generation and reinforcement learning.
 
 My research focuses on *making smaller models better and more efficient—through both compression and improvements to data and training*. I’m particularly interested in distillation, synthetic data generation, and reinforcement learning in post-training settings, aiming to improve data quality and better understand the dynamics of RL-based fine-tuning. Previously, I’ve explored improvements from the compression and efficiency side, including speculative decoding, model sparsity, and self-speculation for efficient inference.
 
-I’ve been fortunate to collaborate with mentors across physics, math, and machine learning.  
-I’ve worked with Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) (CMU) on efficient inference, and with Prof. [Emma Strubell](https://strubell.github.io/) (CMU), [Lucio Dery](https://ldery.github.io/#) (DeepMind), and [Clara Na](https://clarasna.com/) (CMU) on active and model-aware synthetic data generation.
+I’ve been fortunate to collaborate with mentors across physics, math, and machine learning. I’ve worked with Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) (CMU) on efficient inference, and with Prof. [Emma Strubell](https://strubell.github.io/) (CMU), [Lucio Dery](https://ldery.github.io/#) (DeepMind), and [Clara Na](https://clarasna.com/) (CMU) on active and model-aware synthetic data generation.
+
+I’m always excited to connect with others in the field, so feel free to reach out if you’d like to chat about research, potential collaborations, or just want to say hi!
+
 ----
-#### `/bits-&-bytes`
+<!-- #### `/bits-&-bytes` -->
 <div class="bits-and-bytes-side">
   <div class="media">
     <a class="preview-card" href="https://vashisthtiwari.myportfolio.com/" aria-label="Open photography portfolio">
@@ -132,3 +135,5 @@ I’ve worked with Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) (
   }
 }
 </style>
+
+----
