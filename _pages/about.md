@@ -22,7 +22,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 Hello! I’m a first-year PhD student at Carnegie Mellon University’s [Language Technologies Institute](https://www.lti.cs.cmu.edu). I completed my M.S. in Electrical and Computer Engineering at CMU and a B.S. in Physics and Mathematics at the [University of Rochester](https://www.rochester.edu/).  
-In summer 2025, I worked at Google Research / DeepMind as a Student Researcher with [Giulia DeSalvo](https://research.google/people/106565/), focusing on synthetic data generation and reinforcement learning.
+In summer 2025, I worked at Google Research as a Student Researcher with [Giulia DeSalvo](https://research.google/people/106565/), focusing on synthetic data generation and reinforcement learning.
 
 My research focuses on *making smaller models better and more efficient—through both compression and improvements to data and training*. I’m particularly interested in distillation, synthetic data generation, and reinforcement learning in post-training settings, aiming to improve data quality and better understand the dynamics of RL-based fine-tuning. Previously, I’ve explored improvements from the compression and efficiency side, including speculative decoding, model sparsity, and self-speculation for efficient inference.
 
