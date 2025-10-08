@@ -28,13 +28,6 @@ My research focuses on *making smaller models better and more efficient—throug
 
 I’ve been fortunate to collaborate with mentors across physics, math, and machine learning.  
 I’ve worked with Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) (CMU) on efficient inference, and with Prof. [Emma Strubell](https://strubell.github.io/) (CMU), [Lucio Dery](https://ldery.github.io/#) (DeepMind), and [Clara Na](https://clarasna.com/) (CMU) on active and model-aware synthetic data generation.
-
-<!-- I’ve had the privilege of working with exceptional mentors across physics, math, and AI. Currently, under the mentorship of [Clara Na](https://clarasna.com/) and [Lucio Dery](https://ldery.github.io/#) in Prof. [Emma Strubell](https://strubell.github.io/)'s lab, I am exploring model-aware and active synthetic data generation. Previously, I worked with Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) on using speculative decoding to improve throughput and latency, self-speculation by utilizing weight, activation, and contextual sparsity.  -->
-
-<!-- My research journey began with my work in [Dark Energy Spectroscopic Instrument](https://www.desi.lbl.gov) with Prof. [Segev BenZvi](https://www.pas.rochester.edu/~sybenzvi/) and with Prof. [Machiel Blok](https://labsites.rochester.edu/bloklab/team/) on superconducting qubits.
-
-Outside of academia, I've had the privilege of interning at [Los Alamos National Laboratory](https://about.lanl.gov/) under Dr. [Malcolm Boshier](https://www.matterwaveoptics.eu/FOMO2024/malcolm-boshier/) where I worked on optimizing quantum systems. I've also gained valuable experience as a Quantitative Research Intern at Mana, mentored by [Max Novendstern](https://www.linkedin.com/in/maxnovendstern/) and [David Kaufman](https://www.linkedin.com/in/davidwkaufman/). -->
-
 ----
 #### `/bits-&-bytes`
 <div class="bits-and-bytes-side">

@@ -13,7 +13,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: vashisth-tiwari, personal-website, academic-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: VT.svg # :) # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: Ⓥ # :) # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 custom_navbar_message: वशिष्ठ तिवारी   # @vashistht: added custom navbar message
 url: https://vashistht.github.io  # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -648,7 +648,7 @@ third_party_libraries:
 
 jekyll_get_json:
   - data: resume
-    json: assets/json/resume.json # it can also be an url
+    json: #  assets/json/resume.json it can also be an url
 jsonresume:
   - basics
   - work
