@@ -1,38 +1,30 @@
 ---
 layout: about
 title: about
-permalink: / 
-subtitle:  "PhD Student  @CarnegieMellon" 
-# &#9475 Student Researcher @<a href='https://research.google'>GoogleResearch</a> (Summer 2025) 
-# # he/him &#9475;
-# # &#9475;Physics+Math @UofR
-# # वशिष्ठ तिवारी &#8201;|&#8201; he/him &#8201;|&#8201; AI@CMU &#8201;|&#8201; Physics+Math @UofR
-# # वशिष्ठ तिवारी • he/him • AI@<a href='https://www.cmu.edu/'>CMU</a> • Physics+Math @<a href='https://www.rochester.edu/'>UofR</a>
-# # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-# <p>555 your office number</p>
-# <p>123 your address street</p>
-# <p>Your City, State 12345</p>
-news: true # includes a list of news items
+permalink: /
+subtitle: "<em>PhD @CarnegieMellon | Previously: SR @<a href='https://research.google' style='text-decoration:none;'><span style='font-weight:600;'><span style='color:#4285F4;'>G</span><span style='color:#EA4335;'>o</span><span style='color:#FBBC04;'>o</span><span style='color:#4285F4;'>g</span><span style='color:#34A853;'>l</span><span style='color:#EA4335;'>e</span></span> Research</a></em>"
+news: true
 profile:
   align: right
   image: prof_pic_2.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: true
   more_info: >
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 ---
 
-Hello! I’m a first-year PhD student at Carnegie Mellon University’s [Language Technologies Institute](https://www.lti.cs.cmu.edu).  
-I completed my M.S. in Electrical and Computer Engineering at CMU and a B.S. in Physics and Mathematics at the [University of Rochester](https://www.rochester.edu/). In summer 2025, I worked at Google Research as a Student Researcher with [Giulia DeSalvo](https://research.google/people/106565/), focusing on synthetic data generation and reinforcement learning.
+Hello! I'm a first-year PhD student at Carnegie Mellon University's [Language Technologies Institute](https://www.lti.cs.cmu.edu), advised by Prof. [Emma Strubell](https://strubell.github.io/) and Prof. [Zico Kolter](https://zicokolter.com/).  I completed my *Masters* at CMU and a *B.S. in Physics and Mathematics* at the University of Rochester.
 
-My research focuses on *making smaller models better and more efficient—through both compression and improvements to data and training*. I’m particularly interested in distillation, synthetic data generation, and reinforcement learning in post-training settings, aiming to improve data quality and better understand the dynamics of RL-based fine-tuning. Previously, I’ve explored improvements from the compression and efficiency side, including speculative decoding, model sparsity, and self-speculation for efficient inference.
+*Summer 2025:* Seattle — Google Research — Student Researcher with Dr. [Giulia DeSalvo](https://research.google/people/106565/) (synthetic data + RL).
 
-I’ve been fortunate to collaborate with mentors across physics, math, and machine learning. I’ve worked with Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) (CMU) on efficient inference, and with Prof. [Emma Strubell](https://strubell.github.io/) (CMU), [Lucio Dery](https://ldery.github.io/#) (DeepMind), and [Clara Na](https://clarasna.com/) (CMU) on active and model-aware synthetic data generation.
+My research focuses on **making better and more efficient smaller models** through improvements to both training and data. I'm particularly interested in distillation, synthetic data generation, and reinforcement learning for post-training.
 
-I’m always excited to connect with others in the field, so feel free to reach out if you’d like to chat about research, potential collaborations, or just want to say hi!
+I've had the pleasure of learning from and working with Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) (efficient inference), [Lucio Dery](https://ldery.github.io/#) and [Clara Na](https://clarasna.com/) (synthetic data).
+
+Please feel free to reach out if you'd like to chat about research, potential collaborations, or just want to say hi.
 
 ----
-<!-- #### `/bits-&-bytes` -->
+
 <div class="bits-and-bytes-side">
   <div class="media">
     <a class="preview-card" href="https://vashisthtiwari.myportfolio.com/" aria-label="Open photography portfolio">
@@ -46,13 +38,13 @@ I’m always excited to connect with others in the field, so feel free to reach 
 
   <div class="text">
     <p>
-      When I'm not hunching over my laptop, you'll find me behind a camera lens—check out my
-      <a href="https://vashisthtiwari.myportfolio.com/">photography portfolio</a>.
+      Outside of work, I love photography—check out my
+      <a href="https://vashisthtiwari.myportfolio.com/">portfolio</a> and <a href="https://www.instagram.com/vashisth.photos/">Instagram</a>.
       I spent much of my life playing badminton, including on the team at the University of Rochester,
-      and now I'm attempting (and miserably failing) to learn tennis. You might also spot me tossing a frisbee at the CUT or hiking around Pittsburgh.
+      and now I'm playing tennis.
     </p>
     <p>
-      And yes, I <em>love</em> food and coffee, perhaps a bit too much. I'm always on the lookout for new spots—so if you have recommendations, send them my way!
+     I <em>love</em> food and coffee, perhaps a bit too much. I'm always on the lookout for new spots—so if you have recommendations, send them my way :).
     </p>
   </div>
 </div>
@@ -73,7 +65,7 @@ I’m always excited to connect with others in the field, so feel free to reach 
   overflow: hidden;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   text-decoration: none;
-  width: 260px;  /* smaller image width */
+  width: 260px;
   flex-shrink: 0;
 }
 
@@ -111,10 +103,12 @@ I’m always excited to connect with others in the field, so feel free to reach 
 
 .bits-and-bytes-side .text {
   flex: 1;
-  font-size: 0.92rem; /* smaller text like before */
-  line-height: 1.55;
-  max-width: 600px;
+  font-size: 1.02rem;
+  line-height: 1.65;
+  max-width: 620px;
 }
+
+
 
 .bits-and-bytes-side a {
   color: inherit;
@@ -135,5 +129,3 @@ I’m always excited to connect with others in the field, so feel free to reach 
   }
 }
 </style>
-
-----
