@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<em>PhD @CarnegieMellon | Previously: SR @<a href='https://research.google' style='text-decoration:none;'><span style='font-weight:600;'><span style='color:#4285F4;'>G</span><span style='color:#EA4335;'>o</span><span style='color:#FBBC04;'>o</span><span style='color:#4285F4;'>g</span><span style='color:#34A853;'>l</span><span style='color:#EA4335;'>e</span></span> Research</a></em>"
+subtitle:
 news: true
 profile:
   align: right
@@ -12,18 +12,26 @@ profile:
 selected_papers: false
 social: true
 ---
+<!-- subtitle: "<em>PhD @CarnegieMellon | Previously: SR @<a href='https://research.google' style='text-decoration:none;'><span style='font-weight:600;'><span style='color:#4285F4;'>G</span><span style='color:#EA4335;'>o</span><span style='color:#FBBC04;'>o</span><span style='color:#4285F4;'>g</span><span style='color:#34A853;'>l</span><span style='color:#EA4335;'>e</span></span> </a></em>" -->
 
-Hello! I'm a first-year PhD student at Carnegie Mellon University's [Language Technologies Institute](https://www.lti.cs.cmu.edu), advised by Prof. [Emma Strubell](https://strubell.github.io/) and Prof. [Zico Kolter](https://zicokolter.com/).  I completed my *Masters* at CMU and a *B.S. in Physics and Mathematics* at the University of Rochester.
+Hello! I'm a first-year PhD student at Carnegie Mellon University's [Language Technologies Institute](https://www.lti.cs.cmu.edu), advised by Prof. [Emma Strubell](https://strubell.github.io/) and Prof. [Zico Kolter](https://zicokolter.com/).
+
+I completed my *Masters in ECE* at CMU and a *B.S. in Physics and Mathematics* at the University of Rochester, where I was a Rhodes Scholarship Semi-Finalist (India) and received the Harry W. Fulbright Prize for experimental physics.
+ <!-- [Harry W. Fulbright Prize](https://www.sas.rochester.edu/pas/undergraduate/awards.html) for experimental physics. -->
 
 *Summer 2025:* Seattle — Google Research — Student Researcher with Dr. [Giulia DeSalvo](https://research.google/people/106565/) (synthetic data + RL).
 
-My research focuses on **making better and more efficient smaller models** through improvements to both training and data. I'm particularly interested in distillation, synthetic data generation, and reinforcement learning for post-training.
+<div class="research-box">
+My research focuses on <strong>making better and more efficient smaller models</strong> through improvements to both training and data. I'm particularly interested in distillation, synthetic data generation, and reinforcement learning for post-training.
+</div>
+
 
 I've had the pleasure of learning from and working with Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) (efficient inference), [Lucio Dery](https://ldery.github.io/#) and [Clara Na](https://clarasna.com/) (synthetic data).
 
 Please feel free to reach out if you'd like to chat about research, potential collaborations, or just want to say hi.
 
 ----
+<!-- ##### `bits & bytes` -->
 
 <div class="bits-and-bytes-side">
   <div class="media">
@@ -39,8 +47,7 @@ Please feel free to reach out if you'd like to chat about research, potential co
   <div class="text">
     <p>
       Outside of work, I love photography—check out my
-      <a href="https://vashisthtiwari.myportfolio.com/">portfolio</a> and <a href="https://www.instagram.com/vashisth.photos/">Instagram</a>.
-      I spent much of my life playing badminton, including on the team at the University of Rochester,
+      <strong><a href="https://vashisthtiwari.myportfolio.com/">portfolio</a></strong> and <strong><a href="https://www.instagram.com/vashisth.photos/">Instagram</a></strong>.      I spent much of my life playing badminton, including on the team at the University of Rochester,
       and now I'm playing tennis.
     </p>
     <p>
@@ -50,6 +57,17 @@ Please feel free to reach out if you'd like to chat about research, potential co
 </div>
 
 <style>
+.research-box {
+  background-color: rgba(var(--global-divider-color-rgb), 0.04);
+  /* border-left: 2px solid rgba(var(--global-theme-color-rgb), 0.9); */
+  border-left: 2px solid
+    color-mix(in srgb, var(--global-theme-color) 30%, transparent);
+  padding: 14px 18px;
+  margin: 20px 0;
+  border-radius: 0 8px 8px 0;
+  line-height: 1.6;
+}
+
 .bits-and-bytes-side {
   display: flex;
   align-items: flex-start;
@@ -108,8 +126,6 @@ Please feel free to reach out if you'd like to chat about research, potential co
   max-width: 620px;
 }
 
-
-
 .bits-and-bytes-side a {
   color: inherit;
   text-decoration: underline;
@@ -129,3 +145,4 @@ Please feel free to reach out if you'd like to chat about research, potential co
   }
 }
 </style>
+----
