@@ -1,36 +1,113 @@
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
-
 // Typography
-
 p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 em,
 div,
 li,
 span,
 strong {
   color: var(--global-text-color);
-  // change font here 
+  // change font here
   // font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   // font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 230; /* This sets the default to Roboto Light */
-
+  // font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  // font-family: 'DM Sans', -apple-system, sans-serif; // Modern, geometric
+  // font-family: 'Nunito', -apple-system, sans-serif; // Rounded, friendly
+  // font-family: 'Karla', -apple-system, sans-serif; // Clean, grotesque
+  // font-family: 'Work Sans', -apple-system, sans-serif; // Versatile, warm
+  // font-family: 'DM Sans', -apple-system, sans-serif;
+  // font-weight: 230; /* This sets the default to Roboto Light */
+  // font-family: 'Source Serif Pro', Georgia, serif;
+  // font-family: 'Cormorant', Georgia, serif;
+  // font-family: 'Spectral', Georgia, serif;
+  font-family: 'Lora', Georgia, serif;
+  font-weight: 100;
+  /* This sets the default to Roboto Light */
+  font-size: 0.93rem;
 }
+
 /* Preserve bold styling */
-strong, b {
-  font-weight: 600;
+strong,
+b {
+  font-weight: 500;
+}
+
+// Headings - keep their own sizes
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--global-text-color);
+  font-family: 'Source Serif Pro', Georgia, serif;
+  font-weight: 400;
+}
+
+// Protect heading spans from general typography rule
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span,
+.post-title span {
+  font-size: inherit !important;
+  font-weight: inherit;
+}
+
+// Navbar brand
+.navbar-brand {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  font-size: inherit !important;
+
+  span {
+    font-size: inherit !important;
+    font-weight: inherit;
+  }
+
+  .semi-bold {
+    font-family: 'Playfair Display', Georgia, serif !important;
+    font-weight: 600;
+    font-size: inherit !important;
+  }
+}
+
+// Post title
+h1.post-title {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  font-size: 2.0rem !important;
+  line-height: 1.15;
+  font-weight: 300;
+
+  span {
+    font-family: 'Playfair Display', Georgia, serif !important;
+    font-size: 2.0rem !important;
+  }
+
+  .font-weight-bold {
+    font-family: 'Playfair Display', Georgia, serif !important;
+    font-weight: 600!important;
+    font-size: 2.0rem !important;
+  }
+}
+
+/* Preserve bold styling */
+strong,
+b {
+  font-weight: 600 !important;
 }
 
 hr {
-  border-top: 1px solid var(--global-divider-color);
+  // border-top: 3px solid var(--global-divider-color);
+  // border-top: 3px solid var(--global-theme-color);
+  border: none;
+  height: 3px;
+  background-color: var(--global-divider-color);
+  opacity: 0.4;
+  margin: 40px 0;
 }
 
 table {
@@ -227,7 +304,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 25%;
 
     .address {
       p {
@@ -478,7 +555,6 @@ footer.sticky-bottom {
 }
 
 // CV
-
 .cv {
   margin-bottom: 40px;
 
@@ -489,10 +565,72 @@ footer.sticky-bottom {
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
+      padding: 1.25rem 1rem;
 
       .badge {
-        color: var(--global-card-bg-color) !important;
-        background-color: var(--global-theme-color) !important;
+        // Muted date badges instead of loud pink
+        color: var(--global-text-color-light) !important;
+        background-color: transparent !important;
+        font-weight: 500 !important;
+        font-size: 0.75rem;
+        padding: 0;
+        border: none;
+      }
+    }
+  }
+
+.table-cv-map {
+  background-color: transparent;
+  border: none;
+  color: var(--global-text-color);
+}
+  // Hide icons for cleaner look
+  i.iconlocation,
+  i.iconinstitution,
+  i.icondepartment {
+    display: none;
+  }
+
+  // Muted location text
+  p.location {
+    font-size: 0.7rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.25rem;
+  }
+
+  // Cleaner title
+  h6.title {
+    font-size: 0.95rem;
+    margin-bottom: 0.25rem;
+  }
+
+  // Institution styling
+  table.institution {
+    margin-bottom: 0.5rem;
+  }
+
+  td.institution {
+    font-size: 0.9rem;
+  }
+
+  td.department {
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+  }
+
+  // Muted description items
+  ul.items {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    padding-left: 1rem;
+
+    li {
+      font-size: 0.85rem;
+      color: var(--global-text-color);
+      margin-bottom: 0.25rem;
+
+      &::marker {
+        color: var(--global-text-color-light);
       }
     }
   }
@@ -509,50 +647,13 @@ footer.sticky-bottom {
   transform: translateX(-15px) translateY(-5px);
 }
 
-// CV
+// Repositories
+@media (min-width: 768px) {
+  .repo {
+    max-width: 50%;
+  }
+}
 
-// .cv {
-//   margin-bottom: 40px;
-//   font-size: 0.9rem; // Reduce the base font size for all CV content
-
-//   .card {
-//     background-color: var(--global-card-bg-color);
-//     border: 1px solid var(--global-divider-color);
-
-//     .card-title {
-//       font-size: 1.1rem; // Slightly larger than base, but still reduced
-//     }
-
-//     .card-text {
-//       font-size: 0.9rem; // Smaller than the base CV font size
-//     }
-
-//     .list-group-item {
-//       background-color: inherit;
-//       border-color: var(--global-divider-color);
-//       font-size: 0.9rem; // Match card-text size
-
-//       .badge {
-//         color: var(--global-card-bg-color) !important;
-//         background-color: var(--global-theme-color) !important;
-//         font-size: 0.75rem; // Slightly reduce badge size
-//       }
-//     }
-//   }
-// }
-
-// .table-cv-map {
-//   background-color: transparent;
-//   border: none;
-//   color: var(--global-text-color);
-//   font-size: 0.9rem; // Reduce font size to match other elements
-// }
-
-// .date-column {
-//   width: 75px;
-//   transform: translateX(-15px) translateY(-5px);
-//   font-size: 0.9rem; // Slightly smaller for dates
-// }
 // Repositories
 
 @media (min-width: 768px) {
@@ -1358,3 +1459,4 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
