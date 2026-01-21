@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Vashisth
 middle_name:
 last_name: Tiwari
-email: vashistt@andrew.cmu.edu
+email: vashistt@cs.cmu.edu
 description: this is the personal website of Vashisth Tiwari / Vash Tiwari, a graduate student at Carnegie Mellon. # he/him # the ">" symbol means to ignore newlines until "footer_text:" वशिष्ठ तिवारी |
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -109,8 +109,7 @@ x_username: vash_tiwari # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 
-contact_note: >
-  Feel free to reach out if you have any questions or suggestions at vashistt [at] andrew [dot] cmu [dot] edu.
+contact_note: Feel free to reach out at vashistt [at] cs [dot] cmu [dot] edu.
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------

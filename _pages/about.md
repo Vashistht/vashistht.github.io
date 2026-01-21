@@ -160,7 +160,7 @@ html[data-theme="dark"] .research-card {
   }
   .preview-card {
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
   }
   .bits-and-bytes-side .text {
     text-align: justify;

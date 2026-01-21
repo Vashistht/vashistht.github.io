@@ -265,7 +265,11 @@ ul.task-list input[type="checkbox"] {
 // Profile
 
 .profile {
-  width: 26%;
+  width: 100%;
+  max-width: 200px; // limit size on mobile
+  margin: 0 auto 1.5rem auto; // center on mobile
+  text-align: center;
+  float: none !important; // disable float on mobile
 
   .social-under-image {
     text-align: center;
@@ -329,24 +333,33 @@ ul.task-list input[type="checkbox"] {
   margin-bottom: 0.5rem;
 }
 
-.profile.float-right {
-  margin-left: 2.5rem;
-  margin-top: -10px;
-}
-
-.profile.float-left {
-  margin-right: 1rem;
-}
+// float margins moved to media query for desktop only
 
 @media (min-width: 576px) {
   .profile {
-    width: 26%;
+    width: 25%;
+    max-width: none; // remove mobile limit
+    margin: 0; // reset margin
+    margin-bottom: 0;
+    text-align: center;
+    float: right !important; // re-enable float on desktop
 
     .address {
       p {
         display: block;
       }
     }
+  }
+
+  .profile.float-right {
+    float: right !important;
+    margin-left: 2.5rem;
+    margin-top: -10px;
+  }
+
+  .profile.float-left {
+    float: left !important;
+    margin-right: 1rem;
   }
 }
 

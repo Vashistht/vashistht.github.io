@@ -70,7 +70,7 @@ nav_title: service
   </div>
 </div>
 
-## Mentorship & Knowledge Sharing
+## Mentorship
 
 <div class="service-card">
   <h3>ECE Peer Mentor</h3>
