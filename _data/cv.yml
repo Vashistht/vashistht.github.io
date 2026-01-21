@@ -38,8 +38,8 @@
       location: Seattle, WA
       year: 05/2025 - 08/2025
       logo: assets/img/logos/google.png
-      description:
-        - Post-training for Gemma models; RL and synthetic data for supervised finetuning
+      description: >
+        - Post-training for Gemma models: RL and synthetic data for supervised finetuning
     - title: Research Assistant
       institution: <a href="https://strubell.github.io/slab/">SLAB Lab</a>, w/ Prof. Emma Strubell
       location: Pittsburgh, PA

@@ -1,17 +1,20 @@
 ---
 layout: default
 ---
+<!-- .<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}{{ site.last_name }}</span>-->
+
+
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">
+    <h1 class="post-title" style="color: var(--global-text-color);">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
+      <span class="font-weight-bold" style="color: var(--global-text-color);">{{ site.first_name }}</span> {{ site.middle_name }} <span style="color: var(--global-theme-color);">{{ site.last_name }}</span>
       {% else %}
         {{ site.title }}
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
+    <div class="header-divider"></div>
   </header>
 
   <article>
@@ -31,6 +34,11 @@ layout: default
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
           %}
+        {% endif %}
+        {% if page.social %}
+          <div class="social-under-image">
+            {% include social.liquid %}
+          </div>
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
@@ -64,13 +72,10 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
+    <!-- Social (moved under profile image) -->
+    <!-- Contact note only -->
+    {% if page.social and site.contact_note %}
+      <div class="contact-note-bottom">{{ site.contact_note }}</div>
     {% endif %}
 
     {% if site.newsletter.enabled and site.footer_fixed %}

@@ -10,6 +10,8 @@ nav_order: 1
 
 <!-- _pages/publications.md -->
 
+<p style="color: var(--global-text-color-light); font-size: 1rem; margin-bottom: 1.5rem; font-weight: 600;">*denotes equal contribution and co-lead of the project</p>
+<!-- # can u make it bold -->
 <!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}

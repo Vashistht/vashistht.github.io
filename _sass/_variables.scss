@@ -18,21 +18,29 @@ $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
 $purple-color: #b509ac !default;
 $light-purple-color: lighten($purple-color, 25%);
+$slate-blue-color: #6082B6 !default;
+$light-slate-blue-color: lighten($slate-blue-color, 20%);
+$slate-blue-color-bright: rgb(79, 129, 205);
+$light-slate-blue-color-bright: lighten($slate-blue-color, 20%);
+$slate-blue-color-light: #B8D4F8 !default;
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
 
 $grey-color: #828282 !default;
+$grey-color-socials: #464646;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark: #1c1c1d;
 $grey-900: #212529;
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
+$off-white-color: #ffffff !default;
+$card-bg-dark: rgb(36, 36, 40) !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($slate-blue-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location

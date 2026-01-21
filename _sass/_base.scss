@@ -9,23 +9,9 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  // change font here
-  // font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  // font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  // font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  // font-family: 'DM Sans', -apple-system, sans-serif; // Modern, geometric
-  // font-family: 'Nunito', -apple-system, sans-serif; // Rounded, friendly
-  // font-family: 'Karla', -apple-system, sans-serif; // Clean, grotesque
-  // font-family: 'Work Sans', -apple-system, sans-serif; // Versatile, warm
-  // font-family: 'DM Sans', -apple-system, sans-serif;
-  // font-weight: 230; /* This sets the default to Roboto Light */
-  // font-family: 'Source Serif Pro', Georgia, serif;
-  // font-family: 'Cormorant', Georgia, serif;
-  // font-family: 'Spectral', Georgia, serif;
   font-family: 'Lora', Georgia, serif;
   font-weight: 100;
-  /* This sets the default to Roboto Light */
-  // font-size: 0.93rem;
+  font-size: 1.02rem;
 }
 
 /* Preserve bold styling */
@@ -61,7 +47,7 @@ h6 span,
 // Navbar brand
 .navbar-brand {
   font-family: 'Playfair Display', Georgia, serif !important;
-  font-size: inherit !important;
+  font-size: 1.15rem !important; // hindi name font size
 
   span {
     font-size: inherit !important;
@@ -101,12 +87,11 @@ b {
 }
 
 hr {
-  // border-top: 3px solid var(--global-divider-color);
-  // border-top: 3px solid var(--global-theme-color);
+  // Markdown line ---
   border: none;
-  height: 3px;
+  height: 2px;
   background-color: var(--global-divider-color);
-  opacity: 0.4;
+  opacity: 1;
   margin: 40px 0;
 }
 
@@ -280,7 +265,30 @@ ul.task-list input[type="checkbox"] {
 // Profile
 
 .profile {
-  width: 100%;
+  width: 26%;
+
+  .social-under-image {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 20px;
+
+    a {
+      margin: 0 6px;
+
+      i {
+        font-size: 1.5rem; // <-- Change icon size here
+      }
+
+      i::before {
+        color: var(--global-text-color-light);
+        transition: color 0.2s ease;
+      }
+
+      &:hover i::before {
+        color: var(--global-theme-color);
+      }
+    }
+  }
 
   .more-info {
     margin-bottom: 5px;
@@ -294,8 +302,36 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Subtitle styling
+.post-header .desc {
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+  font-style: italic;
+  margin-top: 4px;
+  margin-bottom: 0.3rem;
+}
+
+// Subtle divider after subtitle
+.header-divider {
+  height: 1px;
+  background-color: var(--global-divider-color);
+  opacity: 0.5;
+  margin-bottom: 1.25rem;
+  max-width: 60%;
+}
+
+// Contact note at bottom (Feel free to reach out...)
+.contact-note-bottom {
+  text-align: center;
+  font-size: 1rem !important;
+  color: var(--global-text-color-light);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 2.5rem;
+  margin-top: -10px;
 }
 
 .profile.float-left {
@@ -304,7 +340,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 25%;
+    width: 26%;
 
     .address {
       p {
@@ -376,6 +412,7 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-size: 1.1rem; // increase font size
 
     &:hover {
       color: var(--global-hover-color);
@@ -470,7 +507,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.5rem;
 
     a {
       i::before {
@@ -524,13 +561,27 @@ ul.task-list input[type="checkbox"] {
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
-  font-size: 0.75rem;
 
+  // Copyright section - very small
   .container {
     color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
+    padding-top: 6px;
+    padding-bottom: 4px;
     text-align: center;
+    font-size: 0.7rem !important;
+    opacity: 0.7;
+
+    * {
+      font-size: 0.7rem !important;
+    }
+  }
+
+  // Contact note - normal readable size
+  .contact-note-bottom {
+    font-size: 1rem !important;
+    opacity: 1;
+    color: var(--global-text-color-light);
+    padding-bottom: 8px;
   }
 
   a {
@@ -545,12 +596,38 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 0.5rem !important;
 
+  // Copyright section - very small
   .container {
     text-align: center;
+    font-size: 0.55rem !important;
+    color: var(--global-footer-text-color);
+    opacity: 0.7;
+
+    * {
+      font-size: 0.55rem !important;
+    }
+  }
+
+  // Contact note - normal readable size
+  .contact-note-bottom {
+    font-size: 0.9rem !important;
+    opacity: 1;
+    color: var(--global-text-color-light);
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    color: var(--global-footer-link-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
   }
 }
 
@@ -676,6 +753,29 @@ footer.sticky-bottom {
   }
 }
 
+// Page title headers (all pages)
+h1.post-title {
+  color: var(--global-theme-color);
+}
+
+.projects h2.category {
+  color: var(--global-theme-color);
+}
+
+// Page description (under title)
+.post-description {
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+}
+
+// Section headers in pages (h2)
+.post h2,
+article h2 {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 .tag-category-list {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
@@ -707,7 +807,7 @@ footer.sticky-bottom {
   padding: 0;
 
   li {
-    border-bottom: 1px solid var(--global-divider-color);
+    border-bottom: 2px solid var(--global-divider-color);
     list-style: none;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -831,8 +931,8 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+    color: var(--global-text-color-light);
+    border-top: 2px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
@@ -873,7 +973,7 @@ footer.sticky-bottom {
       }
 
       .title {
-        font-weight: bolder;
+        font-weight: 600;
       }
 
       .author {
@@ -887,7 +987,7 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
+          font-weight: 600;
           font-style: normal;
         }
 
@@ -1008,7 +1108,8 @@ pre {
 }
 
 code {
-  color: var(--global-theme-color);
+  // color: var(--global-theme-color);
+  color: var(--global-text-color);
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;

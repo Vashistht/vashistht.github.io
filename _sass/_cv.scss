@@ -42,7 +42,7 @@ a.btncv:hover {
   background-color: transparent !important;
   color: var(--global-text-color-light) !important;
   font-weight: 500 !important;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   padding: 0.25rem 0;
   border: none;
 }
@@ -56,7 +56,7 @@ i.icondepartment {
 
 /* Subtle location text */
 p.location {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   white-space: nowrap;
   color: var(--global-text-color-light);
   margin-top: 0.25rem;
@@ -67,11 +67,11 @@ table.institution {
 }
 
 td.institution {
-  font-size: 0.9rem;
+  font-size: 1.05rem;
 }
 
 td.department {
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   color: var(--global-text-color-light);
 }
 
@@ -268,7 +268,7 @@ ul.timeline li::before {
 }
 
 .cv-institution {
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: var(--global-text-color-light);
   margin-bottom: 0.4rem;
 
@@ -301,7 +301,7 @@ ul.timeline li::before {
 
 .cv-year {
   display: block;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   color: var(--global-text-color-light);
   font-weight: 400;
   white-space: nowrap;
@@ -309,9 +309,9 @@ ul.timeline li::before {
 
 .cv-location {
   display: block;
-  font-size: 0.65rem;
+  font-size: 0.85rem;
   color: var(--global-text-color-light);
-  opacity: 0.7;
+  opacity: 0.8;
   white-space: nowrap;
   margin-top: 0.15rem;
 }
