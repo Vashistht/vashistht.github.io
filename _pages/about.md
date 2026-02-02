@@ -16,7 +16,9 @@ social: true
 <!-- # <p style="text-align: center; font-size: 0.85rem; color: var(--global-text-color-light);">
     # Email: vashistt [at] cs [dot] cmu [dot] edu!
     # </p> -->
-##### Hi! 👋
+    
+
+<h5 style="padding-left: 7px;">Hi! 👋</h5>
 
 <!-- I'm a first-year PhD student at Carnegie Mellon University's [Language Technologies Institute](https://www.lti.cs.cmu.edu/research/index.html). I am lucky to be advised by [Emma Strubell](https://strubell.github.io/) and [Zico Kolter](https://zicokolter.com/).
 
@@ -31,11 +33,13 @@ My research focuses on **making better and more efficient smaller models** throu
       <a href="https://zicokolter.com/">Zico Kolter</a>.
     </p>
     <p>
-      My research focuses on <strong>making better and more efficient smaller models</strong> through improvements to both training and data. I'm particularly interested in distillation, synthetic data generation, and reinforcement learning for post-training.
+    My research focuses on developing better, more efficient LLMs by improving training dynamics and data quality. I am particularly interested in knowledge distillation, synthetic data generation, and reinforcement learning for post-training.
     </p>
   </div>
 </div>
 
+<!--      My research focuses on <strong>making better and more efficient smaller models</strong> through improvements to both training and data. I'm particularly interested in distillation, synthetic data generation, and reinforcement learning for post-training.
+-->
 
 I’ve been fortunate to learn from wonderful mentors, including [Giulia DeSalvo](https://research.google/people/106565/) (DeepMind), [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) (CMU), [Lucio Dery](https://ldery.github.io/#) (CMU/DeepMind), and [Clara Na](https://clarasna.com/) (CMU).
 
