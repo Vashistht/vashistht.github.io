@@ -16,13 +16,12 @@ social: true
 <!-- # <p style="text-align: center; font-size: 0.85rem; color: var(--global-text-color-light);">
     # Email: vashistt [at] cs [dot] cmu [dot] edu!
     # </p> -->
-    
 
-<h5 style="padding-left: 7px;">Hi! 👋</h5>
+<h6 style="padding-left: 5px;">Hi! 👋</h6>
 
-<!-- I'm a first-year PhD student at Carnegie Mellon University's [Language Technologies Institute](https://www.lti.cs.cmu.edu/research/index.html). I am lucky to be advised by [Emma Strubell](https://strubell.github.io/) and [Zico Kolter](https://zicokolter.com/).
+<!-- I'm a first-year PhD student at Carnegie Mellon University's [Language Technologies Institute](https://www.lti.cs.cmu.edu/research/index.html). I am lucky to be advised by [Emma Strubell](https://strubell.github.io/) and [Zico Kolter](https://zicokolter.com/). Before the PhD, I completed my *Masters* at CMU and a *B.S. in Physics and Mathematics* at the University of Rochester.
 
-My research focuses on **making better and more efficient smaller models** through improvements to both training and data. I'm particularly interested in distillation, synthetic data generation, and reinforcement learning for post-training. -->
+My research focuses on developing better, more efficient LLMs by improving training dynamics and data quality. I am particularly interested in knowledge distillation, synthetic data generation, and reinforcement learning for post-training. -->
 
 <div class="research-card">
   <div class="research-card-content">
@@ -38,12 +37,16 @@ My research focuses on **making better and more efficient smaller models** throu
   </div>
 </div>
 
-<!--      My research focuses on <strong>making better and more efficient smaller models</strong> through improvements to both training and data. I'm particularly interested in distillation, synthetic data generation, and reinforcement learning for post-training.
--->
 
-I’ve been fortunate to learn from wonderful mentors, including [Giulia DeSalvo](https://research.google/people/106565/) (DeepMind), [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) (CMU), [Lucio Dery](https://ldery.github.io/#) (CMU/DeepMind), and [Clara Na](https://clarasna.com/) (CMU).
+I’ve been fortunate to learn from wonderful mentors, including
+- [Giulia DeSalvo](https://research.google/people/106565/) (DeepMind) on synthetic data and RL for Gemma;
+- [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) (CMU) on efficient inference;
+- [Lucio Dery](https://ldery.github.io/#) (CMU/DeepMind), and [Clara Na](https://clarasna.com/) (CMU) on improving synthetic data generation;
+- Malcolm Boshier (Los Alamos) on Deep-RL for quantum sensing setups;
+- [Segev BenZvi](https://www.pas.rochester.edu/people/faculty/benzvi_segev/index.html) on computational astrophysics, [Machiel Blok](https://labsites.rochester.edu/bloklab/) on quantum information
 
-Before the PhD, I completed my *Masters in ECE* at CMU and a *B.S. in Physics and Mathematics* at the University of Rochester. I was a Rhodes Scholarship Semi-Finalist (India) and received the Harry W. Fulbright Prize for experimental physics. In my past life, I worked on quantum sensing and computational astrophysics.
+Before the PhD, I completed my *Masters in ECE* at CMU and a *B.S. in Physics and Mathematics* at the University of Rochester. I was a Rhodes Scholarship Semi-Finalist (India) and received the Harry W. Fulbright Prize for experimental physics.
+<!-- In my past life, I worked on quantum sensing and computational astrophysics. -->
 
 I am looking for **summer 2026 internships**—feel free to reach out if you see a good fit :).
 
