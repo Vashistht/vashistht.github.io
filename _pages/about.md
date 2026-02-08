@@ -16,14 +16,24 @@ social: true
 <!-- # <p style="text-align: center; font-size: 0.85rem; color: var(--global-text-color-light);">
     # Email: vashistt [at] cs [dot] cmu [dot] edu!
     # </p> -->
+<!-- I'm a first-year PhD student at Carnegie Mellon University's [Language Technologies Institute](https://www.lti.cs.cmu.edu), advised by [Emma Strubell](https://strubell.github.io/) and [Zico Kolter](https://zicokolter.com/). My research focuses on developing better, more efficient LLMs by improving training dynamics and data quality. I am particularly interested in knowledge distillation, synthetic data generation, and reinforcement learning for post-training. -->
 
-<h6 style="padding-left: 5px;">Hi! 👋</h6>
+<!-- I've been fortunate to learn from wonderful mentors, including [Giulia DeSalvo](https://research.google/people/106565/) (DeepMind) on synthetic data and RL for Gemma, [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) (CMU) on efficient inference, [Lucio Dery](https://ldery.github.io/#) and [Clara Na](https://clarasna.com/) (CMU) on improving synthetic data generation, and [Segev BenZvi](https://www.pas.rochester.edu/people/faculty/benzvi_segev/index.html) on computational astrophysics. -->
 
-<!-- I'm a first-year PhD student at Carnegie Mellon University's [Language Technologies Institute](https://www.lti.cs.cmu.edu/research/index.html). I am lucky to be advised by [Emma Strubell](https://strubell.github.io/) and [Zico Kolter](https://zicokolter.com/). Before the PhD, I completed my *Masters* at CMU and a *B.S. in Physics and Mathematics* at the University of Rochester.
+<!-- Before the PhD, I completed my *Masters in ECE* at CMU and a *B.S. in Physics and Mathematics* at the University of Rochester. I was a Rhodes Scholarship Semi-Finalist (India) and received the Harry W. Fulbright Prize for experimental physics. -->
 
-My research focuses on developing better, more efficient LLMs by improving training dynamics and data quality. I am particularly interested in knowledge distillation, synthetic data generation, and reinforcement learning for post-training. -->
+<!-- OLD CARD STYLE (commented out)-->
 
-<div class="research-card">
+<!-- <h6 style="padding-left: 5px;">Hi! 👋</h6> -->
+
+Hi! 👋
+
+I'm a first-year PhD student at Carnegie Mellon University's [Language Technologies Institute](https://www.lti.cs.cmu.edu), advised by [Emma Strubell](https://strubell.github.io/) and [Zico Kolter](https://zicokolter.com/).
+
+My research focuses on developing better, more efficient LLMs by improving training dynamics and data quality. I am particularly interested in knowledge distillation, synthetic data generation, and reinforcement learning for post-training.
+
+
+<!-- <div class="research-card">
   <div class="research-card-content">
     <p>
       I'm a first-year PhD student at Carnegie Mellon University's
@@ -35,20 +45,22 @@ My research focuses on developing better, more efficient LLMs by improving train
     My research focuses on developing better, more efficient LLMs by improving training dynamics and data quality. I am particularly interested in knowledge distillation, synthetic data generation, and reinforcement learning for post-training.
     </p>
   </div>
-</div>
+</div> -->
 
-
-I’ve been fortunate to learn from wonderful mentors, including
+I've been fortunate to learn from wonderful mentors, including
 - [Giulia DeSalvo](https://research.google/people/106565/) (DeepMind) on synthetic data and RL for Gemma;
 - [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) (CMU) on efficient inference;
 - [Lucio Dery](https://ldery.github.io/#) (CMU/DeepMind), and [Clara Na](https://clarasna.com/) (CMU) on improving synthetic data generation;
 - Malcolm Boshier (Los Alamos) on Deep-RL for quantum sensing setups;
 - [Segev BenZvi](https://www.pas.rochester.edu/people/faculty/benzvi_segev/index.html) on computational astrophysics, [Machiel Blok](https://labsites.rochester.edu/bloklab/) on quantum information
 
-Before the PhD, I completed my *Masters in ECE* at CMU and a *B.S. in Physics and Mathematics* at the University of Rochester. I was a Rhodes Scholarship Semi-Finalist (India) and received the Harry W. Fulbright Prize for experimental physics.
 <!-- In my past life, I worked on quantum sensing and computational astrophysics. -->
 
-I am looking for **summer 2026 internships**—feel free to reach out if you see a good fit :).
+Before the PhD, I completed my *Masters in ECE* at CMU and a *B.S. in Physics and Mathematics* at the University of Rochester. I was a Rhodes Scholarship Semi-Finalist (India) and received the Harry W. Fulbright Prize for experimental physics.
+
+I am looking for **summer 2026 internships**—feel free to reach out if you see a good fit.
+
+<!-- Feel free to reach out at vashistt [at] cs [dot] cmu [dot] edu. at vashistt [at] cs [dot] cmu [dot] edu  -->
 
 <!-- I've had the pleasure of learning from wonderful mentors. In summer 2025, I had an amazing experience as a Student Researcher at Google in Seattle, working with [Giulia DeSalvo](https://research.google/people/106565/) on synthetic data and reinforcement learning. During my masters at CMU, I worked with [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) on efficient inference, and with [Lucio Dery](https://ldery.github.io/#) and [Clara Na](https://clarasna.com/) on improving synthetic data generation. -->
 <!-- *I'm looking for summer 2026 internships—feel free to reach out if you see a good fit.* -->
@@ -69,11 +81,10 @@ I am looking for **summer 2026 internships**—feel free to reach out if you see
 
   <div class="text">
     <p>
-      Outside of work, I love photography—check out my
-      <strong><a href="https://vashisthtiwari.myportfolio.com/">portfolio</a></strong> and <strong><a href="https://www.instagram.com/vashisth.photos/">Instagram</a></strong>. I spent much of my life playing badminton, including on the team at the University of Rochester, and now I'm playing tennis.
+      Outside of work, I love photography—check out my <strong><a href="https://vashisthtiwari.myportfolio.com/">portfolio</a></strong> and <strong><a href="https://www.instagram.com/vashisth.photos/">Instagram</a></strong>.
     </p>
     <p>
-     I <em>love</em> food and coffee, perhaps a bit too much. I'm always on the lookout for new spots—so if you have recommendations, send them my way :).
+      I'm always on the lookout for new food and coffee spots—if you have recommendations, send them my way!
     </p>
   </div>
 </div>
