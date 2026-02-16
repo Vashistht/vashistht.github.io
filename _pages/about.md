@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD @ Carnegie Mellon | Previously- SR @ <a href="https://research.google" style="text-decoration:none;"><span style="font-weight:600;"><span style="color:#4285F4;">G</span><span style="color:#EA4335;">o</span><span style="color:#FBBC04;">o</span><span style="color:#4285F4;">g</span><span style="color:#34A853;">l</span><span style="color:#EA4335;">e</span></span></a>
+subtitle: PhD @ Carnegie Mellon | Previously—SR @ <a href="https://research.google" style="text-decoration:none;"><span style="font-weight:600;"><span style="color:#4285F4;">G</span><span style="color:#EA4335;">o</span><span style="color:#FBBC04;">o</span><span style="color:#4285F4;">g</span><span style="color:#34A853;">l</span><span style="color:#EA4335;">e</span></span></a>
 news: true
 profile:
   align: right
