@@ -31,7 +31,7 @@ social: true
 
 Hi! 👋
 
-I'm a first-year PhD student at Carnegie Mellon University's [Language Technologies Institute](https://www.lti.cs.cmu.edu), advised by [Emma Strubell](https://strubell.github.io/) and [Zico Kolter](https://zicokolter.com/).
+I'm a first-year PhD student at Carnegie Mellon University's [LTI](https://www.lti.cs.cmu.edu), advised by [Emma Strubell](https://strubell.github.io/) and [Zico Kolter](https://zicokolter.com/).
 Previously I completed my *masters* at CMU and a *bachelor's in Physics and Mathematics* at the University of Rochester.
 <!-- I was a Rhodes Scholarship Semi-Finalist (India) and received the Harry W. Fulbright Prize for experimental physics. -->
 

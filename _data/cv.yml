@@ -34,7 +34,7 @@
   type: time_table
   contents:
     - title: Student Researcher
-      institution: <a href="https://research.google/">Google Research</a>, w/ Dr. Giulia DeSalvo
+      institution: <a href="https://research.google/">Google</a>, w/ Dr. Giulia DeSalvo
       location: Seattle, WA
       year: 05/2025 - 08/2025
       logo: assets/img/logos/google.png
