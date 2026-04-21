@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD @ Carnegie Mellon
+subtitle: PhD @ Carnegie Mellon | Research Intern @Google ('25), Nvidia ('26)
 news: true
 profile:
   align: right
