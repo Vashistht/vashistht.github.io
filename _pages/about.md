@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD @ Carnegie Mellon | Research Intern @Google ('25), Nvidia ('26)
+subtitle: PhD @ Carnegie Mellon
 news: true
 profile:
   align: right
@@ -29,15 +29,19 @@ social: true
 
 <!-- <h6 style="padding-left: 5px;">Hi! 👋</h6> -->
 
-Hi! 👋
+ Hi! 👋
 
-I'm a first-year PhD student at Carnegie Mellon University's [LTI](https://www.lti.cs.cmu.edu), advised by [Emma Strubell](https://strubell.github.io/) and [Zico Kolter](https://zicokolter.com/).
-Previously I completed my *masters* at CMU and a *bachelor's in Physics and Mathematics* at the University of Rochester.
-<!-- I was a Rhodes Scholarship Semi-Finalist (India) and received the Harry W. Fulbright Prize for experimental physics. -->
+  I'm a first-year PhD student at Carnegie Mellon University's [LTI](https://www.lti.cs.cmu.edu), advised by [Emma Strubell](https://strubell.github.io/) and
+  [Zico Kolter](https://zicokolter.com/). Previously, I completed my *master's* at CMU and a *bachelor's in Physics and Mathematics* at the University of
+  Rochester.
 
-My research focuses on developing better, more efficient LLMs by improving training dynamics and data quality. I am particularly interested in knowledge distillation, synthetic data generation, and reinforcement learning for post-training.
+  My research focuses on developing better, more efficient LLMs by improving training dynamics and data quality. I am particularly interested in knowledge
+  distillation, synthetic data generation, and reinforcement learning for post-training.
 
-I've been fortunate to learn from wonderful mentors, including [Giulia DeSalvo](https://research.google/people/106565/) at DeepMind; [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/), [Lucio Dery](https://ldery.github.io/#), [Clara Na](https://clarasna.com/) at CMU.
+  I've been fortunate to learn from wonderful mentors. In summer 2026, I will be joining the Nemotron post-training team at Nvidia, where I'll work with [Oleksii]
+  (http://kuchaev.com) and [Adi](https://arendu.github.io). In summer 2025, I was a Student Researcher with [Giulia DeSalvo](https://research.google/
+  people/106565/) at DeepMind. At CMU, I've also worked with [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/), [Lucio Dery](https://ldery.github.io/#), and
+  [Clara Na](https://clarasna.com/).
 <!-- , Malcolm Boshier, and [Machiel Blok](https://labsites.rochester.edu/bloklab/). -->
 
 
@@ -78,7 +82,7 @@ I've been fortunate to learn from wonderful mentors, including [Giulia DeSalvo](
 <div class="bits-and-bytes-side">
   <div class="media">
     <a class="preview-card" href="https://vashisthtiwari.myportfolio.com/" aria-label="Open photography portfolio">
-      <img src="assets/img/DSCF4311.jpg" alt="Photography preview" loading="lazy" decoding="async">
+      <img src="assets/img/DSCF4311_preview.jpg" alt="Photography preview" width="1200" height="800" loading="lazy" decoding="async">
       <div class="preview-meta">
         <span>Photography portfolio</span>
         <span class="arrow">→</span>
