@@ -31,3 +31,5 @@ end
 gem "observer", "~> 0.1.2"
 
 gem "logger", "~> 1.7"
+gem "benchmark"
+gem "ostruct"
