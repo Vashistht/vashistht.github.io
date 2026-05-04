@@ -5,118 +5,118 @@
 #       value: Vashisth Tiwari
 #     - name: Languages
 #       value: English, Hindi
-- title: <strong>Education</strong>
-  type: time_table
-  contents:
-    - title: Ph.D., Language Technologies Institute (LTI)
-      institution: <a href="https://www.lti.cs.cmu.edu/">Carnegie Mellon University</a>
-      location: Pittsburgh, PA
-      year: 08/2025 -
-      logo: assets/img/logos/cmu.png
-      description:
-        - "<strong>Advisors:</strong>: Prof. Emma Strubell, Prof. Zico Kolter"
+# - title: <strong>Education</strong>
+#   type: time_table
+#   contents:
+#     - title: Ph.D., Language Technologies Institute (LTI)
+#       institution: <a href="https://www.lti.cs.cmu.edu/">Carnegie Mellon University</a>
+#       location: Pittsburgh, PA
+#       year: 08/2025 -
+#       logo: assets/img/logos/cmu.png
+#       description:
+#         - "<strong>Advisors:</strong>: Prof. Emma Strubell, Prof. Zico Kolter"
 
-    - title: Master of Science in Artificial Intelligence Engineering (ECE)
-      institution: <a href="https://www.cmu.edu/">Carnegie Mellon University</a>
-      location: Pittsburgh, PA
-      year: 12/2024
-      logo: assets/img/logos/cmu.png
-      description:
-        # - "<strong>Courses:</strong> Advanced NLP, Deep Learning, ML, AI Systems, Stochastic Processes"
+#     - title: Master of Science in Artificial Intelligence Engineering (ECE)
+#       institution: <a href="https://www.cmu.edu/">Carnegie Mellon University</a>
+#       location: Pittsburgh, PA
+#       year: 12/2024
+#       logo: assets/img/logos/cmu.png
+#       description:
+#         # - "<strong>Courses:</strong> Advanced NLP, Deep Learning, ML, AI Systems, Stochastic Processes"
 
-    - title: Bachelor of Science in Physics, Bachelor of Arts in Mathematics
-      institution: <a href="https://www.rochester.edu/">University of Rochester</a>
-      location: Rochester, NY
-      year: 05/2023
-      logo: assets/img/logos/rochester.png
+#     - title: Bachelor of Science in Physics, Bachelor of Arts in Mathematics
+#       institution: <a href="https://www.rochester.edu/">University of Rochester</a>
+#       location: Rochester, NY
+#       year: 05/2023
+#       logo: assets/img/logos/rochester.png
 
-- title: <strong>Experience</strong>
-  type: time_table
-  contents:
-    - title: Student Researcher
-      institution: <a href="https://research.google/">Google</a>, w/ Dr. Giulia DeSalvo
-      location: Seattle, WA
-      year: 05/2025 - 08/2025
-      logo: assets/img/logos/google.png
-      description: >
-        - Post-training for Gemma models: RL and synthetic data for supervised finetuning
-    - title: Research Assistant
-      institution: <a href="https://strubell.github.io/slab/">SLAB Lab</a>, w/ Prof. Emma Strubell
-      location: Pittsburgh, PA
-      year: 02/2025 - 05/2025
-      logo: assets/img/logos/cmu.png
-      description:
-        - Active learning and feedback-driven frameworks for synthetic data generation
-    - title: Research Assistant
-      institution: <a href="https://keroro824.github.io/lab-page/">InfiniAI Lab</a>, w/ Prof. Beidi Chen
-      location: Pittsburgh, PA
-      year: 02/2024 - 08/2024
-      logo: assets/img/logos/cmu.png
-      description:
-        - How can speculative decoding be used to improve throughput and latency in LLMs; what are the best models for speculative decoding setups in different conditions?
+# - title: <strong>Experience</strong>
+#   type: time_table
+#   contents:
+#     - title: Student Researcher
+#       institution: <a href="https://research.google/">Google</a>, w/ Dr. Giulia DeSalvo
+#       location: Seattle, WA
+#       year: 05/2025 - 08/2025
+#       logo: assets/img/logos/google.png
+#       description: >
+#         - Post-training for Gemma models: RL and synthetic data for supervised finetuning
+#     - title: Research Assistant
+#       institution: <a href="https://strubell.github.io/slab/">SLAB Lab</a>, w/ Prof. Emma Strubell
+#       location: Pittsburgh, PA
+#       year: 02/2025 - 05/2025
+#       logo: assets/img/logos/cmu.png
+#       description:
+#         - Active learning and feedback-driven frameworks for synthetic data generation
+#     - title: Research Assistant
+#       institution: <a href="https://keroro824.github.io/lab-page/">InfiniAI Lab</a>, w/ Prof. Beidi Chen
+#       location: Pittsburgh, PA
+#       year: 02/2024 - 08/2024
+#       logo: assets/img/logos/cmu.png
+#       description:
+#         - How can speculative decoding be used to improve throughput and latency in LLMs; what are the best models for speculative decoding setups in different conditions?
 
-    - title: Research Intern
-      institution: <a href="https://www.lanl.gov/">Los Alamos National Laboratory</a>, w/ Dr. Malcolm Boshier
-      location: Los Alamos, NM
-      year: 06/2021 - 08/2021
-      logo: assets/img/logos/lanl.png
-      description:
-        - Is it possible to improve the performance of atom interferometers perhaps using ML and high-dimensional optimization?
+#     - title: Research Intern
+#       institution: <a href="https://www.lanl.gov/">Los Alamos National Laboratory</a>, w/ Dr. Malcolm Boshier
+#       location: Los Alamos, NM
+#       year: 06/2021 - 08/2021
+#       logo: assets/img/logos/lanl.png
+#       description:
+#         - Is it possible to improve the performance of atom interferometers perhaps using ML and high-dimensional optimization?
 
-    - title: Quantitative Research Intern
-      institution: Mana Finance Corporation
-      location: San Francisco, CA
-      year: 05/2022 - 08/2022
-      description:
-        - How can we use statistical techniques to better quantify the risks of investments and build better pipelines for tracking data from the source?
+#     - title: Quantitative Research Intern
+#       institution: Mana Finance Corporation
+#       location: San Francisco, CA
+#       year: 05/2022 - 08/2022
+#       description:
+#         - How can we use statistical techniques to better quantify the risks of investments and build better pipelines for tracking data from the source?
 
-    - title: Research Assistant
-      institution: <a href="https://labsites.rochester.edu/bloklab/">Blok Lab</a>, w/ Prof. Machiel Blok
-      location: Rochester, NY
-      year: 09/2021 - 05/2023
-      logo: assets/img/logos/rochester.png
-      description:
-        - How can we characterize noise and reduce readout errors in superconducting quantum qubits?
+#     - title: Research Assistant
+#       institution: <a href="https://labsites.rochester.edu/bloklab/">Blok Lab</a>, w/ Prof. Machiel Blok
+#       location: Rochester, NY
+#       year: 09/2021 - 05/2023
+#       logo: assets/img/logos/rochester.png
+#       description:
+#         - How can we characterize noise and reduce readout errors in superconducting quantum qubits?
 
-    - title: Research Assistant
-      institution: <a href="https://www.desi.lbl.gov/">Dark Energy Spectroscopic Instrument</a>, w/ Prof. Segev BenZvi
-      location: Rochester, NY
-      year: 01/2020 - 05/2021
-      logo: assets/img/logos/rochester.png
-      description:
-        - How can we predict the occurrence of supernovae using spectral data from DESI so we can better use scarce high-resolution cameras?
+#     - title: Research Assistant
+#       institution: <a href="https://www.desi.lbl.gov/">Dark Energy Spectroscopic Instrument</a>, w/ Prof. Segev BenZvi
+#       location: Rochester, NY
+#       year: 01/2020 - 05/2021
+#       logo: assets/img/logos/rochester.png
+#       description:
+#         - How can we predict the occurrence of supernovae using spectral data from DESI so we can better use scarce high-resolution cameras?
 
-- title: <strong>Teaching</strong>
-  type: time_table
-  contents:
-    - title: <a href="https://cmu-llms.org/">Inference Algorithms for LLMs (11-711)</a>
-      institution: Language Technologies Institute, CMU
-      year: 08/2025 -
-      logo: assets/img/logos/cmu.png
-    - title: <a href="https://phontron.com/class/anlp-fall2024/">Advanced NLP (11-711)</a>
-      institution: Language Technologies Institute, CMU
-      year: 08/2024 - 12/2024
-      logo: assets/img/logos/cmu.png
-    - title: Quantum Theory, E&M, 20th Century Physics, Intro to Python
-      institution: University of Rochester
-      year: 2020 - 2023
-      logo: assets/img/logos/rochester.png
+# - title: <strong>Teaching</strong>
+#   type: time_table
+#   contents:
+#     - title: <a href="https://cmu-llms.org/">Inference Algorithms for LLMs (11-711)</a>
+#       institution: Language Technologies Institute, CMU
+#       year: 08/2025 -
+#       logo: assets/img/logos/cmu.png
+#     - title: <a href="https://phontron.com/class/anlp-fall2024/">Advanced NLP (11-711)</a>
+#       institution: Language Technologies Institute, CMU
+#       year: 08/2024 - 12/2024
+#       logo: assets/img/logos/cmu.png
+#     - title: Quantum Theory, E&M, 20th Century Physics, Intro to Python
+#       institution: University of Rochester
+#       year: 2020 - 2023
+#       logo: assets/img/logos/rochester.png
 
-- title: <strong>Honors and Awards</strong>
-  type: time_table
-  contents:
-    - year: 2023
-      items:
-        - '<a href="https://www.sas.rochester.edu/pas/undergraduate/awards.html">Harry W. Fulbright Prize</a> (experimental physics)'
-        - '<a href="https://www.sas.rochester.edu/pas/undergraduate/awards.html">Undergraduate Teaching Award</a>'
-        - "Phi Beta Kappa"
-    - year: 2022
-      items:
-        - "Rhodes Scholarship Semi-Finalist (India)"
-        - "Sigma Pi Sigma National Honors Society"
-    - year: 2021
-      items:
-        - '<a href="https://www.sas.rochester.edu/pas/undergraduate/awards.html">Physics Honors Prize</a>'
-    - year: 2019
-      items:
-        - '<a href="https://www.next-genius.com">Next Genius Scholar</a> (full scholarship to University of Rochester)'
+# - title: <strong>Honors and Awards</strong>
+#   type: time_table
+#   contents:
+#     - year: 2023
+#       items:
+#         - '<a href="https://www.sas.rochester.edu/pas/undergraduate/awards.html">Harry W. Fulbright Prize</a> (experimental physics)'
+#         - '<a href="https://www.sas.rochester.edu/pas/undergraduate/awards.html">Undergraduate Teaching Award</a>'
+#         - "Phi Beta Kappa"
+#     - year: 2022
+#       items:
+#         - "Rhodes Scholarship Semi-Finalist (India)"
+#         - "Sigma Pi Sigma National Honors Society"
+#     - year: 2021
+#       items:
+#         - '<a href="https://www.sas.rochester.edu/pas/undergraduate/awards.html">Physics Honors Prize</a>'
+#     - year: 2019
+#       items:
+#         - '<a href="https://www.next-genius.com">Next Genius Scholar</a> (full scholarship to University of Rochester)'
