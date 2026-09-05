@@ -6,7 +6,7 @@ nav_title: cv
 nav: true
 nav_order: 2
 cv_pdf: Vashisth_Tiwari_CV.pdf
-cv_update_date: 2025/10/01
+cv_update_date: 2026/05/01
 description: Please find attached my CV for more details.
 toc:
   sidebar: left
