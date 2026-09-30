@@ -2,7 +2,6 @@
 layout: page
 permalink: /service/
 title: community engagement
-description: Being able to play my part in making the community more accessible for everyone, more fun is important to me.
 nav: true
 nav_order: 4
 nav_title: service
@@ -58,7 +57,7 @@ nav_title: service
 
 <div class="service-card">
   <h3>Society of Physics Students (SPS)</h3>
-  <div class="meta">President (2021-2022), Secretary (2020-2021) · University of Rochester</div>
+  <div class="meta">President (2021–2023), Secretary (2020–2021) · University of Rochester</div>
   <hr class="divider">
   <div class="description">
     SPS at Rochester was integral to my academic journey, fostering a strong sense of community within the Physics Department. Recognizing physics as one of the least diverse sciences, my involvement focused on connecting students, faculty, and the broader community through professional development and outreach activities.
@@ -74,10 +73,10 @@ nav_title: service
 
 <div class="service-card">
   <h3>ECE Peer Mentor</h3>
-  <div class="meta">2022–Present · Carnegie Mellon University</div>
+  <div class="meta">2024 · Carnegie Mellon University</div>
   <hr class="divider">
   <div class="description">
-    Mentoring 3 students to help them navigate their academic journey at CMU, providing guidance on coursework, research opportunities, and career planning.
+    Mentored 3 students to help them navigate their academic journey at CMU, providing guidance on coursework, research opportunities, and career planning.
   </div>
 </div>
 

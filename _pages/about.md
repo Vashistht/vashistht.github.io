@@ -159,6 +159,11 @@ html[data-theme="dark"] .research-card {
   font-size: 0.9rem;
 }
 
+.preview-meta span {
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
 .preview-meta .arrow {
   transition: transform 0.2s ease;
 }
