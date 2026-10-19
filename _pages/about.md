@@ -37,7 +37,7 @@ social: true
 
   I'm broadly interested in bringing some formalism and better understanding to how and why LLM training methods work, and in improving the efficiency
   of LLMs (through better data and improved training dynamics). My work so far has focused on distillation and
-  reinforcement learning.
+  reinforcement learning during post-training.
 
   I've been fortunate to learn from wonderful mentors: [Oleksii](http://kuchaev.com) and [Adi](https://arendu.github.io) at Nvidia (summer 2026), [Giulia DeSalvo](https://research.google/people/106565/) at DeepMind (summer 2025), and [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/), [Lucio Dery](https://ldery.github.io/#), [Clara Na](https://clarasna.com/) at CMU.
 <!-- , Malcolm Boshier, and [Machiel Blok](https://labsites.rochester.edu/bloklab/). -->
