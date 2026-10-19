@@ -35,8 +35,9 @@ social: true
   [Zico Kolter](https://zicokolter.com/). Previously, I completed my *master's* at CMU and a *bachelor's in Physics and Mathematics* at the University of
   Rochester.
 
-  My research focuses on developing better, more efficient LLMs by improving training dynamics and data quality. I am particularly interested in knowledge
-  distillation, synthetic data generation, and reinforcement learning for post-training.
+  I'm broadly interested in bringing some formalism and better understanding to how and why LLM training methods work, and in improving the efficiency
+  of LLMs (through better data and improved training dynamics). My work so far has focused on distillation and
+  reinforcement learning.
 
   I've been fortunate to learn from wonderful mentors: [Oleksii](http://kuchaev.com) and [Adi](https://arendu.github.io) at Nvidia (summer 2026), [Giulia DeSalvo](https://research.google/people/106565/) at DeepMind (summer 2025), and [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/), [Lucio Dery](https://ldery.github.io/#), [Clara Na](https://clarasna.com/) at CMU.
 <!-- , Malcolm Boshier, and [Machiel Blok](https://labsites.rochester.edu/bloklab/). -->
